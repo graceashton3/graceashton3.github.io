@@ -1,5 +1,5 @@
 body{
-    background-color: darkgreen;
+    background-color: green;
     color:white;
 }
 
@@ -20,4 +20,19 @@ h2{
 
 head{
     color:white;
+}
+a:link{
+    color: gold;
+    text-decoration:none;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color:white;
+    text-decoration:underline;
+    font-size: larger;
+
 }
