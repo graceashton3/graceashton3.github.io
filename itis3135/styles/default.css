@@ -1,5 +1,6 @@
 body{
     background-color: darkgreen;
+    color:white;
 }
 
 h1{
@@ -10,5 +11,13 @@ h1{
 p{
     font-family: verdana;
     font-size: 20px;
+    color:white;
+}
+
+h2{
+    color: white;
+}
+
+head{
     color:white;
 }
