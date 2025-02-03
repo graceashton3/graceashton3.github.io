@@ -5,7 +5,9 @@ body{
 header{
     color:gold;
 }
-
+title{
+    color:gold;
+}
 h1{
     color:white;
     text-align:center;
