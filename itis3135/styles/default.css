@@ -4,6 +4,7 @@ body{
 
 header{
     color:gold;
+    text-align: center;
 }
 
 h1{
@@ -40,6 +41,6 @@ a:hover{
 
 }
 
-li::before{
+li::marker{
     color: gold;
 }
