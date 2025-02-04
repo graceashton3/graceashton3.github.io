@@ -123,3 +123,10 @@ footer a{
     color:white;
     text-decoration:none;
 }
+footer p, footer nav ul, footer nav ul li {
+    color: white; 
+}
+
+footer p strong {
+    color: white;
+}
