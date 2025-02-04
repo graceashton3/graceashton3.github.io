@@ -55,4 +55,9 @@ img{
     border-radius:8px;
     max-width: 45%;
     max-height: 45%;
+    text-align:center;
+}
+
+p{
+    text-align:center;
 }
