@@ -14,7 +14,7 @@ h1{
 }
 
 .home{
-    color:darkgreen;
+    color:black;
     font-size:20px;
 }
 
@@ -118,7 +118,6 @@ footer nav ul li {
 
 p {
     margin-top: 10px;
-    color:black;
 }
 
 footer a{
