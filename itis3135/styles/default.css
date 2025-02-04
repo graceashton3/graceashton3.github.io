@@ -65,9 +65,12 @@ figcaption {
     font-style: italic;
     text-align: center;
     margin-top: 5px;
-    color:darkgreen;
+    color:black;
 }
 
 .all-about-me{
-    color:rgb(0, 0, 0);
+    color:black;
+}
+.navigation{
+    font-size:15px;
 }
