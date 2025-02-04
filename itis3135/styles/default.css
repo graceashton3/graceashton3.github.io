@@ -59,9 +59,7 @@ li::marker{
     margin-left:auto;
     margin-right:auto;
 }
-.name {
-    display: block;
+h3 {
     text-align: center;
-    width: 100%;
 }
 
