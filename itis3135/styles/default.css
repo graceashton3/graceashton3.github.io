@@ -118,3 +118,8 @@ footer nav ul li {
 p {
     margin-top: 10px;
 }
+
+footer a{
+    color:white;
+    text-decoration:none;
+}
