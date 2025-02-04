@@ -130,3 +130,6 @@ footer p, footer nav ul, footer nav ul li {
 footer p strong {
     color: white;
 }
+footer a:link, footer a:visited {
+    color: white;
+}
