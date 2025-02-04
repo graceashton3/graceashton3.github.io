@@ -15,6 +15,7 @@ h1{
 
 .home{
     color:darkgreen;
+    font-size:20px;
 }
 
 h2{
@@ -135,4 +136,5 @@ footer a:link, footer a:visited {
 .contract{
     text-align:center;
     color:black;
+    font-size:15px;
 }
