@@ -61,5 +61,11 @@ li::marker{
 }
 h3 {
     text-align: center;
+    color:white;
+}
+figcaption {
+    font-style: italic;
+    text-align: center;
+    margin-top: 5px;
 }
 
