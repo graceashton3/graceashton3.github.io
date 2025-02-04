@@ -53,6 +53,6 @@ li::marker{
 
 img{
     border-radius:8px;
-    max-width: 100%;
-    height: auto;
+    max-width: 50%;
+    max-height: 50%;
 }
