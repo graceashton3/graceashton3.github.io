@@ -60,5 +60,8 @@ li::marker{
     margin-right:auto;
 }
 .name {
+    display: block;
     text-align: center;
+    width: 100%;
 }
+
