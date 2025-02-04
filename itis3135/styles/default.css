@@ -133,3 +133,7 @@ footer p strong {
 footer a:link, footer a:visited {
     color: white;
 }
+.contract{
+    text-align:center;
+    color:black;
+}
