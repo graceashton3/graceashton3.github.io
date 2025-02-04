@@ -27,7 +27,7 @@ head{
     color:darkgreen;
 }
 a:link{
-    color: darkgreengold;
+    color: darkgreen;
     text-decoration:none;
 }
 
@@ -65,7 +65,7 @@ figcaption {
     font-style: italic;
     text-align: center;
     margin-top: 5px;
-    color:white;
+    color:darkgreen;
 }
 
 .all-about-me{
