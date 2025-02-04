@@ -52,5 +52,5 @@ li::marker{
 }
 
 img{
-    border:8px;
+    border-radius:8px;
 }
