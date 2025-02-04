@@ -20,6 +20,7 @@ p{
 
 h2{
     color: white;
+    text-align:center;
 }
 
 head{
@@ -59,10 +60,7 @@ li::marker{
     margin-left:auto;
     margin-right:auto;
 }
-h3 {
-    text-align: center;
-    color:white;
-}
+
 figcaption {
     font-style: italic;
     text-align: center;
@@ -70,3 +68,6 @@ figcaption {
     color:white;
 }
 
+.all-about-me{
+    color:white;
+}
