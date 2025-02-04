@@ -50,3 +50,7 @@ li::marker{
     width:88px;
     height:31px;
 }
+
+img{
+    border:8px;
+}
