@@ -1,49 +1,49 @@
 body{
-    background-color: darkgreen;
+    background-color: rgb(214, 221, 220);
 }
 
 header{
-    color:gold;
+    color:darkgreen;
     text-align: center;
     font-size: 18px;
 }
 
 h1{
-    color:white;
+    color:darkgreen;
     text-align:center;
 }
 
 p{
     font-size: 20px;
-    color:white;
+    color:darkgreen;
 }
 
 h2{
-    color: white;
+    color: darkgreen;
     text-align:center;
 }
 
 head{
-    color:white;
+    color:darkgreen;
 }
 a:link{
-    color: gold;
+    color: darkgreengold;
     text-decoration:none;
 }
 
 a:visited{
-    color: gold;
+    color: darkgreen;
 }
 
 a:hover{
-    color:white;
+    color:darkgreen;
     text-decoration:underline;
     font-size: larger;
 
 }
 
 li::marker{
-    color: gold;
+    color: darkgreen;
 }
 
 .footer-imgs{
@@ -69,5 +69,5 @@ figcaption {
 }
 
 .all-about-me{
-    color:white;
+    color:darkgreen;
 }
