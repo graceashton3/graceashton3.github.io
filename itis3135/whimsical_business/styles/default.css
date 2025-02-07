@@ -74,6 +74,9 @@ h1{
     border: 1px solid #b2b2f5;
     justify-content:space-evenly;
     flex-wrap:wrap;
+    padding-inline-start:0;
+    height:100%;
+
 
 }
 
