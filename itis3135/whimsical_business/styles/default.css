@@ -66,16 +66,7 @@ h1{
     background-color:#b2b2f5;
     color:black;
     text-align:center;
-    text-decoration:none;
-    display:inline-block;
-    padding: 10px 20px;
-    margin: 10px;
-    border-radius: 8px;
-    border: 1px solid #b2b2f5;
-    justify-content:space-evenly;
-    flex-wrap:wrap;
-    padding-inline-start:0;
-    height:100%;
+    
 
 
 }
