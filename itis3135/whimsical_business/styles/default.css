@@ -63,7 +63,12 @@ h1{
     text-align:center;
 }
 .buttons{
-    backgorund-color:#b2b2f5;
+    background-color:#b2b2f5;
     color:black;
+    text-align:center;
 
+}
+
+.slogan{
+    text-align:center;
 }
