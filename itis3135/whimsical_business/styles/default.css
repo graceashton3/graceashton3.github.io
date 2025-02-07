@@ -64,17 +64,18 @@ h1{
 }
 .buttons{
     text-align:center;
+    color:black;
 }
-.buttons:link{
+a:link{
     text-decoration:none;
     color:black;
 }
-.buttons:hover{
+a:hover{
     color:black;
     text-decoration:underline;
     font-size: larger;
 }
-.buttons:visited{
+a:visited{
     color:black;
 }
 
