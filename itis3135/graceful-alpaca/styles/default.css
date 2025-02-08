@@ -73,7 +73,7 @@ a:link{
     text-decoration:none;
     color:black;
 }
-nav:hover{
+a:hover{
     color:#4B0082; 
     text-decoration:underline;
     font-size: larger;
