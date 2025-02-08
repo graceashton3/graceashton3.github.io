@@ -117,8 +117,4 @@ body, html {
     transition: background-color 0.3s ease; /* Add a hover transition effect */
 }
 
-/* Hover effect for links */
-.nav-link:hover {
-    background-color: #b2b2f5;       /* Change background on hover */
-    color: #fff;                  /* Ensure text stays visible */
-}
+/* Hover effect for links 
