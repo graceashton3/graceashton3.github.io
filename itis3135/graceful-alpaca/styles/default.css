@@ -101,7 +101,7 @@ body, html {
     display: flex;                /* Use flexbox for alignment */
     justify-content: space-evenly; /* Distribute links evenly across the page */
     align-items: center;          /* Align links vertically in the center */
-    background-color: #333;       /* Set a background color */
+    background-color: #b2b2f5;       /* Set a background color */
     padding: 10px 0;              /* Add padding around the links */
 }
 
