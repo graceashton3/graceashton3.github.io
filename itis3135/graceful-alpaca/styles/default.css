@@ -96,25 +96,22 @@ body, html {
     box-sizing: border-box;
 }
 
-/* Styling the navigation bar */
+
 .navbar {
-    display: flex;                /* Use flexbox for alignment */
-    justify-content: space-evenly; /* Distribute links evenly across the page */
-    align-items: center;          /* Align links vertically in the center */
-    background-color: #b2b2f5;       /* Set a background color */
-    padding: 10px 0;              /* Add padding around the links */
+    display: flex;                
+    justify-content: space-evenly; 
+    align-items: center;          
+    background-color: #b2b2f5;      
+    padding: 10px 0;             
 }
 
-/* Styling the navigation links */
+
 .nav-link {
-    flex: 1;                      /* Make each link take up equal space */
-    text-align: center;           /* Center text inside each link */
-    padding: 10px 0;              /* Add vertical padding */
-    text-decoration: none;        /* Remove underline from links */
-    color: white;                 /* Set link text color */
-    border: 1px solid #444;       /* Add a border around each link */
-    background-color: #b2b2f5;       /* Set a background color for the links */
-    transition: background-color 0.3s ease; /* Add a hover transition effect */
+    flex: 1;                     
+    text-align: center;           
+    padding: 10px 0;              
+    text-decoration: none;        
+    border: 1px solid #444;       
+    background-color: #b2b2f5;       
+    transition: background-color 0.3s ease; 
 }
-
-/* Hover effect for links 
