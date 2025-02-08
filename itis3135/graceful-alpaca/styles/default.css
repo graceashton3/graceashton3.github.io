@@ -113,12 +113,12 @@ body, html {
     text-decoration: none;        /* Remove underline from links */
     color: white;                 /* Set link text color */
     border: 1px solid #444;       /* Add a border around each link */
-    background-color: #555;       /* Set a background color for the links */
+    background-color: #b2b2f5;       /* Set a background color for the links */
     transition: background-color 0.3s ease; /* Add a hover transition effect */
 }
 
 /* Hover effect for links */
 .nav-link:hover {
-    background-color: #777;       /* Change background on hover */
+    background-color: #b2b2f5;       /* Change background on hover */
     color: #fff;                  /* Ensure text stays visible */
 }
