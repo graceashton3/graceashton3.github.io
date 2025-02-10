@@ -21,6 +21,8 @@
         <main>
             <h2>Home</h2>
         </main>
+
+        <script src="scripts/script.js"></script>
     </body>
     <footer>
         <nav>
@@ -35,7 +37,6 @@
             </ul>
         </nav>
         <p>Designed by <strong>Ashton Designs</strong> &copy; <span id="year"></span></p>
-        <!--HTML & CSS Validation Buttons-->
             <div class="footer-imgs">
                 <a href="https://validator.w3.org/check?uri=referer" id="validation-link-html">
                     <img src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!">
@@ -45,13 +46,4 @@
                 </a>
             </div>
     </footer>
-        <!-- JavaScript to set dynamic URLs and current year -->
-        <script>
-            // Set validation links dynamically
-        document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
-        document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
-          
-            // Set current year dynamically
-        document.getElementById("year").textContent = new Date().getFullYear();
-        </script>
 </html>
