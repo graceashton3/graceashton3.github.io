@@ -139,7 +139,7 @@ footer a:link, footer a:visited {
     color:black;
     font-size:20px;
 }
-.website1 {
+.website1.website2 {
     display: flex;
     flex-direction: column; /* Stack elements vertically */
     align-items: flex-start; /* Align everything to the left */
