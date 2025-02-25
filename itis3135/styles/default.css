@@ -142,3 +142,7 @@ footer a:link, footer a:visited {
 .website1{
     text-align:left;
 }
+.website1 h3 a {
+    display: inline-block;
+    text-align: left;
+}
