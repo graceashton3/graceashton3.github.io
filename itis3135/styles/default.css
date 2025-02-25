@@ -139,10 +139,17 @@ footer a:link, footer a:visited {
     color:black;
     font-size:20px;
 }
-.website1.website2 {
+.website1 {
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: flex-start; /* Align everything to the left */
-    text-align: left; /* Ensure text within the section aligns to the left */
+    flex-direction: column; 
+    align-items: flex-start; 
+    text-align: left; 
+}
+
+.website2 {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    text-align: left; 
 }
 
