@@ -139,11 +139,10 @@ footer a:link, footer a:visited {
     color:black;
     font-size:20px;
 }
-.website1{
-    text-align:left;
+.website1 {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align everything to the left */
+    text-align: left; /* Ensure text within the section aligns to the left */
 }
 
-.website1 a {
-    text-align: left;
-    margin: 0; /* Optionally remove any margin if needed */
-}
