@@ -5,9 +5,9 @@ body {
 }
 
 main {
-    max-width: 1200px; /* Ensures content does not stretch too wide */
-    width: 90%; /* Makes layout flexible */
-    margin: 0 auto; /* Centers the content */
+    max-width: 1200px; 
+    width: 90%;
+    margin: 0 auto; 
 }
 
 header {
