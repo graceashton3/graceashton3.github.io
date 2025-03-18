@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+    <head>
         <meta charset="utf-8">
         <title>Figure Skating</title>
         <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
@@ -12,24 +12,24 @@
                 margin: 0;
                 padding: 0;
             }
-        
+
             header {
                 background-color: #E07A5F;
                 color: #F4F1DE;
                 text-align: center;
                 padding: 1rem 0;
             }
-        
+
             nav a {
                 color: #F2CC8F;
                 text-decoration: none;
                 margin: 0 10px;
             }
-        
+
             nav a:hover {
                 text-decoration: underline;
             }
-        
+
             footer {
                 background-color: #81B29A;
                 color: #F2CC8F;
@@ -37,25 +37,25 @@
                 padding: 1rem 0;
                 margin-top: 2rem;
             }
-        
+
             .footer-links ul {
                 list-style-type: none;
                 padding: 0;
                 margin: 0;
                 color: #F2CC8F;
             }
-        
+
             .footer-links li {
                 display: inline-block;
                 margin: 0 10px;
                 color: #F2CC8F;
             }
-        
+
             .footer-links a {
                 color: #F2CC8F;
                 text-decoration: none;
             }
-        
+
             a strong {
                 color: #F2CC8F;
             }
@@ -73,6 +73,7 @@
                 text-decoration: underline;
                 color: #F2CC8F;
             }
+
             footer a:link{
                 color: #F2CC8F;
             }
@@ -88,20 +89,18 @@
             section.active {
                 display: block;
             }
-
         </style>
-        
     </head>
-	<body>
-		<header>
+    <body>
+        <header>
             <h1>Figure Skating</h1>
             <nav>
-                <a href="#what">Home</a> ||
-                <a href="#who">About Me</a> ||
-                <a href="#when">Best Times</a> ||
-                <a href="#where">Best Locations</a> ||
-                <a href="#how">How</a> ||
-                <a href="#why">Why</a>
+                <a href="#what" onclick="showSection('what')">Home</a> ||
+                <a href="#who" onclick="showSection('who')">About Me</a> ||
+                <a href="#when" onclick="showSection('when')">Best Times</a> ||
+                <a href="#where" onclick="showSection('where')">Best Locations</a> ||
+                <a href="#how" onclick="showSection('how')">How</a> ||
+                <a href="#why" onclick="showSection('why')">Why</a>
             </nav>
         </header>
         <main>
@@ -121,38 +120,38 @@
                     <img src="images/IMG_6267.jpg" alt="Grace Spiraling">
                     <figcaption>Me Spiraling at a Competition</figcaption>
                 </figure>
-                <p>I have been figure skating since the age of 5, and still continue to compete today</p>
+                <p>I have been figure skating since the age of 5, and still continue to compete today.</p>
             </section>
-            <section id="When">
-            <h2>Best Times to Skate</h2>
-            <p>Figure skating is practiced all year round, but the best times for competitive events are usually during winter seasons. Most figure skating competitions are held in the colder months, though all practice throughout the year in indoor rinks.</p>
-            <table>
-                <tr>
-                    <th>Month</th>
-                    <th>Recommended Events</th>
-                </tr>
-                <tr>
-                    <td>January</td>
-                    <td>National Championships</td>
-                </tr>
-                <tr>
-                    <td>March</td>
-                    <td>World Figure Skating Championships</td>
-                </tr>
-                <tr>
-                    <td>June</td>
-                    <td>Summer Skating Camps</td>
-                </tr>
-            </table>
-            <p><em>This kind of schduele is for the elite figure skaters. If you are looking to skate, find a rink and go, they are open year round!</em></p>
-            <figure>
-                <img src="images/IMG_28662.HEIC" alt="Grace on the podium">
-                <figcaption>Me at my most recent competition on the podium</figcaption>
-            </figure>
+            <section id="when">
+                <h2>Best Times to Skate</h2>
+                <p>Figure skating is practiced all year round, but the best times for competitive events are usually during winter seasons. Most figure skating competitions are held in the colder months, though all practice throughout the year in indoor rinks.</p>
+                <table>
+                    <tr>
+                        <th>Month</th>
+                        <th>Recommended Events</th>
+                    </tr>
+                    <tr>
+                        <td>January</td>
+                        <td>National Championships</td>
+                    </tr>
+                    <tr>
+                        <td>March</td>
+                        <td>World Figure Skating Championships</td>
+                    </tr>
+                    <tr>
+                        <td>June</td>
+                        <td>Summer Skating Camps</td>
+                    </tr>
+                </table>
+                <p><em>This kind of schedule is for the elite figure skaters. If you are looking to skate, find a rink and go, they are open year-round!</em></p>
+                <figure>
+                    <img src="images/IMG_28662.HEIC" alt="Grace on the podium">
+                    <figcaption>Me at my most recent competition on the podium</figcaption>
+                </figure>
             </section>
             <section id="where">
                 <h2>Best Locations for Figure Skating</h2>
-                <p>There are several famous rinks around the world. One of the most iconic rink is the Olympic Training Site in Colorado Springs</p>
+                <p>There are several famous rinks around the world. One of the most iconic rinks is the Olympic Training Site in Colorado Springs.</p>
                 <figure>
                     <img src="images/IMG_7618.HEIC" alt="Olympic Training Site" width="500">
                     <figcaption>Me at the Olympic Training Site in Colorado Springs.</figcaption>
@@ -161,7 +160,7 @@
             </section>
             <section id="how">
                 <h2>How to Get Started in Figure Skating</h2>
-                <p>If you are interested in figure skating, you want to start by taking beginner lessons at your local ice rink. You can do this by signing up for the learn to skate program. Where it will take you through the beginning steps of figure skating.</p>
+                <p>If you are interested in figure skating, you want to start by taking beginner lessons at your local ice rink. You can do this by signing up for the learn-to-skate program, where it will take you through the beginning steps of figure skating.</p>
                 <form>
                     <label for="skating-rink">Find a local rink:</label>
                     <input type="text" id="skating-rink" name="rink">
@@ -173,12 +172,12 @@
                 </figure>
             </section>
             <section id="why">
-                <h2>why I love Figure Skating</h2>
-                <p>Figure Skating combines athleticism, artistry, adn grace. This sport is hard, it challenges you each day, and constantly pushes you to improve.</p>
-                <p>The feeling when you finally land a jump you have been working really hard on or compete a really good program and medal is a feeling like none other. It makes all the hard and diffcult times disappear.</p>
+                <h2>Why I Love Figure Skating</h2>
+                <p>Figure Skating combines athleticism, artistry, and grace. This sport is hard, it challenges you each day, and constantly pushes you to improve.</p>
+                <p>The feeling when you finally land a jump you have been working really hard on or complete a really good program and medal is a feeling like none other. It makes all the hard and difficult times disappear.</p>
                 <figure>
                     <img src="images/IMG_5181.HEIC" alt="My with skating with friends">
-                    <figcaption>Me Performing Outside with Friends.</figcaption>
+                    <figcaption>Me performing outside with friends.</figcaption>
                 </figure>
             </section>
         </main>
@@ -194,8 +193,25 @@
                     <li><a href="https://www.linkedin.com/in/grace-ashton-967726299/" target="blank">LinkedIn</a></li>
                 </ul>
             </nav>
-            <p>Page designed by <a href="../Ashton-Designs.co/index.html"><strong>Ashton Designs</strong> &copy; <span id="year"></span></a>
-        
+            <p>Page designed by <a href="../Ashton-Designs.co/index.html"><strong>Ashton Designs</strong> &copy; <span id="year"></span></a></p>
         </footer>
+
+        <script>
+            // JavaScript to handle section visibility
+            function showSection(sectionId) {
+                // Hide all sections
+                const sections = document.querySelectorAll("section");
+                sections.forEach(section => {
+                    section.classList.remove("active");
+                });
+
+                // Show the clicked section
+                const activeSection = document.getElementById(sectionId);
+                activeSection.classList.add("active");
+            }
+
+            // Initially show the "what" section (Home)
+            showSection('what');
+        </script>
     </body>
 </html>
