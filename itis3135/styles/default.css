@@ -71,29 +71,8 @@ nav ul li a {
 }
 
 /* Footer Styles */
-.footer-imgs {
-    border: 0;
-    width: 88px;
-    height: 31px;
-}
-
-.center {
-    border-radius: 8px;
-    max-width: 40%;
-    max-height: 40%;
-    display: block;
-    margin: 0 auto;
-}
-
-figcaption {
-    font-style: italic;
-    text-align: center;
-    margin-top: 5px;
-    color: black;
-}
-
 footer {
-    background-color: darkgreen;
+    background-color: darkgreen; /* Keeping the footer background dark green */
     color: white;
     display: flex;
     flex-direction: column;
@@ -215,4 +194,5 @@ caption {
         padding: 8px;
     }
 }
+
 
