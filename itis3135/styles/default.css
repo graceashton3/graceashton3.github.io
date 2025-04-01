@@ -189,10 +189,10 @@ caption {
     text-align: center; /* Centers the text */
 }
 
-/* Ensure the image is centered */
+/* Ensure the image is centered and bigger */
 .centered-image {
     display: block;
-    max-width: 50%; /* Adjust size as needed */
+    max-width: 70%; /* Increased image size */
     height: auto;
     margin: 10px auto;
     border-radius: 8px;
@@ -229,4 +229,5 @@ caption {
         padding: 8px;
     }
 }
+
 
