@@ -1,9 +1,11 @@
+/* General Styles */
 body {
     background-color: rgb(214, 221, 220);
     margin: 0;
     padding: 0;
 }
 
+/* Layout and Structure */
 main {
     max-width: 1200px; 
     width: 90%;
@@ -38,7 +40,6 @@ a:hover {
     font-size: larger;
 }
 
-/* Header Navigation */
 nav {
     background-color: #A8D5BA; /* Header nav bar color */
     padding: 10px 0;
@@ -81,10 +82,9 @@ footer {
     padding: 15px;
 }
 
-/* Footer Navigation Fix */
 footer nav {
-    background-color: transparent !important; /* Prevents it from inheriting header styles */
-    padding: 0;
+    background-color: transparent; /* Remove the background color for footer nav */
+    padding: 0; /* Reset padding if necessary */
 }
 
 footer nav ul {
@@ -98,12 +98,6 @@ footer nav ul {
 
 footer nav ul li {
     margin: 0 10px;
-    background-color: transparent !important; /* Ensures no background color */
-    padding: 5px 10px;
-}
-
-footer nav ul li:hover {
-    background-color: transparent !important; /* Ensures no hover background */
 }
 
 .footer-imgs {
@@ -187,6 +181,35 @@ caption {
     margin-bottom: 10px;
 }
 
+/* Centering for the Introduction Page */
+.intro-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Centers the text */
+}
+
+/* Ensure the image is centered */
+.centered-image {
+    display: block;
+    max-width: 50%; /* Adjust size as needed */
+    height: auto;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+/* Keep the list left-aligned while centering it in the container */
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px; /* Adjust for better readability */
+}
+
+.intro-content ul {
+    text-align: left; /* Keeps bullet points aligned */
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     nav ul {
@@ -206,21 +229,4 @@ caption {
         padding: 8px;
     }
 }
-/* Only apply these styles to the introduction page */
-.intro-page {
-    text-align: center; /* Centers inline content */
-}
 
-/* Center the image */
-.intro-page figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Center list items while keeping bullet points aligned */
-.intro-page .all-about-me ul {
-    display: inline-block;
-    text-align: left;
-}
