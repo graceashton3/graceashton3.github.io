@@ -181,12 +181,49 @@ caption {
     margin-bottom: 10px;
 }
 
-/* Centering for the Introduction Page */
-.intro-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center; /* Centers the text */
+/* Form Styles */
+form {
+    border: 2px solid darkgreen; /* Adding a border to the form */
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input[type="text"], form textarea, form input[type="file"], form input[type="checkbox"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form input[type="text"]:focus, form textarea:focus, form input[type="file"]:focus {
+    border-color: darkgreen;
+}
+
+form input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+form button, form input[type="submit"], form input[type="reset"] {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form button:hover, form input[type="submit"]:hover, form input[type="reset"]:hover {
+    background-color: #2a5a1a;
 }
 
 /* Ensure the image is centered and bigger */
@@ -198,16 +235,25 @@ caption {
     border-radius: 8px;
 }
 
-/* Keep the list left-aligned while centering it in the container */
+/* Uncentered Layout for the Introduction Page */
+.intro-page {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align text to the left */
+    text-align: left; /* Align text to the left */
+    padding: 20px;
+}
+
 .intro-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    max-width: 800px; /* Adjust for better readability */
+    align-items: flex-start;
+    width: 100%;
+    max-width: 800px;
 }
 
 .intro-content ul {
-    text-align: left; /* Keeps bullet points aligned */
+    text-align: left;
 }
 
 /* Responsive Design */
@@ -229,5 +275,3 @@ caption {
         padding: 8px;
     }
 }
-
-
