@@ -38,6 +38,7 @@ a:hover {
     font-size: larger;
 }
 
+/* Header Navigation */
 nav {
     background-color: #A8D5BA; /* Header nav bar color */
     padding: 10px 0;
@@ -80,9 +81,10 @@ footer {
     padding: 15px;
 }
 
+/* Footer Navigation Fix */
 footer nav {
-    background-color: transparent; /* Remove the background color for footer nav */
-    padding: 0; /* Reset padding if necessary */
+    background-color: transparent !important; /* Prevents it from inheriting header styles */
+    padding: 0;
 }
 
 footer nav ul {
@@ -96,6 +98,12 @@ footer nav ul {
 
 footer nav ul li {
     margin: 0 10px;
+    background-color: transparent !important; /* Ensures no background color */
+    padding: 5px 10px;
+}
+
+footer nav ul li:hover {
+    background-color: transparent !important; /* Ensures no hover background */
 }
 
 .footer-imgs {
