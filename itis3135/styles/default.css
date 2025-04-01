@@ -17,7 +17,7 @@ header {
     color:darkgreen;
 }
 
-header > h1, header > h2, header > h3 {
+h1 a, h2 a, h3 a{
     color: darkgreen;
     text-decoration: none;
 }
