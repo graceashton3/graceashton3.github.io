@@ -57,13 +57,13 @@ nav ul {
 nav ul li {
     padding: 10px 20px;
     transition: background-color 0.3s ease-in-out;
-    color:darkgreen;
+
 }
 
 nav ul li:hover {
     background-color: darkgreen;
     border-radius: 5px;
-    color:darkgreen;
+
 }
 
 nav ul li a {
