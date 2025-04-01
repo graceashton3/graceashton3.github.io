@@ -225,3 +225,7 @@ caption {
     font-weight: bold;
     margin-bottom: 10px;
 }
+img {
+    max-width: 100%;  /* Ensures the image will not overflow its container */
+    height: auto;     /* Maintains the aspect ratio of the image */
+}
