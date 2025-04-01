@@ -20,7 +20,21 @@ header {
     color: darkgreen;
     text-align: center;
   }
+  .home, .all-about-me, .contract, .navigation {
+    color: black;
+    font-size: 18px;
+}
 
+a:link, a:visited {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgreen;
+    text-decoration: underline;
+    font-size: larger;
+}
 nav {
     background-color: #A8D5BA;
     padding: 10px 0;
