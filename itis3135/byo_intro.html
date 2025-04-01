@@ -15,6 +15,8 @@
     <main>
       <section>
         <h3>Time to BYO Intro page! Please fill out the form below so we can create your own page.</h3>
+
+        <!-- Your Form -->
         <form class="intro-form" action="#" method="POST" enctype="multipart/form-data" id="intro-form">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
@@ -63,9 +65,13 @@
           <input type="submit" value="Submit">
           <input type="reset" value="Reset">
         </form>
+
+        <!-- ✅ Add this right below your form -->
+        <div id="resultDisplay" style="display: none;"></div>
       </section>
     </main>
 
+    <!-- JavaScript -->
     <script src="scripts/survey.js"></script>
     <div data-include="components/footer.html"></div>
     <script src="scripts/include.js"></script>
