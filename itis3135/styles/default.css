@@ -12,187 +12,48 @@ main {
     margin: 0 auto;
 }
 
-header {
-    color: darkgreen;
-    text-align: center;
-    font-size: 18px;
-}
-
-h1, h2, h3 {
-    color: darkgreen;
-    text-align: center;
-}
-
-/* Navigation Styles */
-.home, .all-about-me, .contract, .navigation {
-    color: black;
-    font-size: 18px;
-}
-
-a:link, a:visited {
-    color: darkgreen;
-    text-decoration: none;
-}
-
-a:hover {
-    color: darkgreen;
-    text-decoration: underline;
-    font-size: larger;
-}
-
-nav {
-    background-color: #A8D5BA; /* Header nav bar color */
-    padding: 10px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav ul li {
-    padding: 10px 20px;
-    transition: background-color 0.3s ease-in-out;
-}
-
-nav ul li:hover {
-    background-color: darkgreen;
-    border-radius: 5px;
-}
-
-nav ul li a {
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-/* Footer Styles */
-footer {
-    background-color: darkgreen; /* Keeping the footer background dark green */
-    color: white;
+/* Ensure the intro-page is centered */
+body .intro-page {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* Center everything horizontally */
+    text-align: center;  /* Center text inside the page */
+}
+
+/* Centering for h2, h3 */
+body .intro-page h2, 
+body .intro-page h3 {
     text-align: center;
-    padding: 15px;
 }
 
-footer nav {
-    background-color: transparent; /* Remove the background color for footer nav */
-    padding: 0; /* Reset padding if necessary */
+/* Center image */
+.centered-image {
+    display: block;
+    max-width: 70%; /* Adjust image size */
+    height: auto;
+    margin: 10px auto;
+    border-radius: 8px;
 }
 
-footer nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    margin-bottom: 10px;
-}
-
-footer nav ul li {
-    margin: 0 10px;
-}
-
-.footer-imgs {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
-}
-
-.footer-imgs img {
-    width: 88px;
-    height: 31px;
-}
-
-p {
-    margin-top: 10px;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-}
-
-footer p, footer nav ul, footer nav ul li, footer p strong {
-    color: white;
-}
-
-footer a:link, footer a:visited {
-    color: white;
-}
-
-/* Table Styles */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-th, td {
-    padding: 12px;
-    text-align: left;
-    border: 1px solid #ddd;
-}
-
-th {
-    background-color: darkgreen;
-    color: white;
-    font-size: 1.1em;
-}
-
-td {
-    background-color: white;
-    font-size: 1em;
-}
-
-tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-tr:nth-child(odd) {
-    background-color: #fff;
-}
-
-figcaption {
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-figure {
-    margin: 0;
-}
-
-tr:hover {
-    background-color: #f1f1f1;
-}
-
-caption {
-    font-size: 1.3em;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-/* Center the entire BYO Intro page content */
-body.intro-page main {
+/* Center the list items */
+body .intro-page .intro-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 20px;
+    align-items: center; /* Align items in the center */
+    max-width: 800px; /* Adjust for better readability */
 }
 
-/* Center form and its content */
-body.intro-page .intro-form {
+body .intro-page .intro-content ul {
+    text-align: left; /* Keeps bullet points left aligned */
+    padding-left: 20px; /* Adds padding for better alignment */
+}
+
+body .intro-page .intro-content li {
+    margin: 10px 0; /* Adds space between list items */
+}
+
+/* Make the form uncentered but center the content */
+.intro-form {
     border: 2px solid darkgreen;
     padding: 20px;
     background-color: white;
@@ -201,18 +62,15 @@ body.intro-page .intro-form {
     display: block;
 }
 
-/* Form Labels and Inputs */
 body.intro-page .intro-form label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
-    text-align: left; /* Keep the label aligned left */
 }
 
 body.intro-page .intro-form input[type="text"], 
 body.intro-page .intro-form textarea, 
-body.intro-page .intro-form input[type="file"], 
-body.intro-page .intro-form input[type="checkbox"] {
+body.intro-page .intro-form input[type="file"] {
     width: 100%;
     padding: 8px;
     margin-bottom: 12px;
@@ -260,3 +118,4 @@ body.intro-page .intro-form input[type="reset"]:hover {
         padding: 10px;
     }
 }
+
