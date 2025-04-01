@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     background-color: rgb(214, 221, 220);
     margin: 0;
@@ -6,9 +7,9 @@ body {
 
 /* Layout and Structure */
 main {
-    max-width: 1200px; 
+    max-width: 1200px;
     width: 90%;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 header {
@@ -209,6 +210,66 @@ caption {
     text-align: left; /* Keeps bullet points aligned */
 }
 
+/* Form Styling */
+.intro-form {
+    border: 2px solid #4CAF50; /* Green border */
+    padding: 20px;
+    background-color: white;
+    width: 60%; /* Adjust form width */
+    margin: 20px auto; /* Center the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.intro-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+.intro-form input[type="text"],
+.intro-form textarea,
+.intro-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.intro-form input[type="text"]:focus,
+.intro-form textarea:focus,
+.intro-form input[type="file"]:focus {
+    border-color: #4CAF50; /* Highlight border color */
+    outline: none;
+}
+
+.intro-form input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.intro-form button,
+.intro-form input[type="submit"],
+.intro-form input[type="reset"] {
+    background-color: #4CAF50; /* Button background color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.intro-form button:hover,
+.intro-form input[type="submit"]:hover,
+.intro-form input[type="reset"]:hover {
+    background-color: #45a049; /* Darker shade on hover */
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     nav ul {
@@ -227,5 +288,10 @@ caption {
     th, td {
         padding: 8px;
     }
+
+    .intro-form {
+        width: 90%; /* Make the form wider on small screens */
+    }
 }
+
 
