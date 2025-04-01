@@ -73,6 +73,7 @@ footer {
 
 footer nav {
     width: 100%;
+    background-color: darkgreen;
 }
 
 footer nav ul {
@@ -94,9 +95,12 @@ footer a {
     text-decoration: none;
 }
 
+footer p, footer nav ul, footer nav ul li, footer p strong {
+    color: white;
+}
+
 /* Form Styling */
 .intro-form {
-    box-sizing: border-box;
     width: 60%;
     padding: 20px;
     margin: 20px auto;
