@@ -20,13 +20,17 @@ header {
 h1, h2, h3 {
     color: darkgreen;
     text-align: center;
-    text-decoration: none;
 }
 
 h1 a, h2 a, h3 a {
     color: darkgreen;
     text-decoration: none;
 }
+
+h1, h2, h3 {
+    text-decoration: none;
+}
+
 
 /* Navigation Styles */
 nav {
