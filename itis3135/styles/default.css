@@ -211,7 +211,7 @@ caption {
 /* Ensure the image is centered and bigger */
 .centered-image {
     display: block;
-    max-width: 70%;
+    max-width: 300px;
     height: auto;
     margin: 10px auto;
     border-radius: 8px;
@@ -227,6 +227,8 @@ caption {
 
 .intro-content ul {
     text-align: left;
+    margin-left: 0;
+    padding-left: 20px; /* gives bullets some indent */
 }
 
 /* Form Styling */
