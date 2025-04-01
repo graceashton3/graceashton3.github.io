@@ -7,9 +7,9 @@ body {
 
 /* Layout and Structure */
 main {
-    max-width: 1200px; 
+    max-width: 1200px;
     width: 90%;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 header {
@@ -187,8 +187,12 @@ form {
     padding: 20px;
     margin: 20px 0;
     background-color: white;
+    width: 70%; /* Make the form a little smaller */
+    margin-left: 15%; /* Uncenter the form */
+    display: block; /* Ensure it's displayed as a block */
 }
 
+/* Ensure Form Fields are Styled */
 form label {
     display: block;
     margin-bottom: 8px;
@@ -226,16 +230,7 @@ form button:hover, form input[type="submit"]:hover, form input[type="reset"]:hov
     background-color: #2a5a1a;
 }
 
-/* Ensure the image is centered and bigger */
-.centered-image {
-    display: block;
-    max-width: 70%; /* Increased image size */
-    height: auto;
-    margin: 10px auto;
-    border-radius: 8px;
-}
-
-/* Uncentered Layout for the Introduction Page */
+/* Uncentered Layout for the Introduction Page (form only) */
 .intro-page {
     display: flex;
     flex-direction: column;
@@ -273,5 +268,10 @@ form button:hover, form input[type="submit"]:hover, form input[type="reset"]:hov
 
     th, td {
         padding: 8px;
+    }
+
+    form {
+        width: 90%; /* Make form more flexible on small screens */
+        margin-left: 5%; /* Slightly center on small screens */
     }
 }
