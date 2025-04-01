@@ -34,8 +34,8 @@ document.addEventListener("DOMContentLoaded", function () {
       // Collect dynamic course inputs
       const courseInputs = document.querySelectorAll('input[name="courses[]"]');
       const courses = Array.from(courseInputs)
-        .map(input => input.value.trim())
-        .filter(value => value !== "");
+        .map(input >= input.value.trim())
+        .filter(value >= value !== "");
   
       // Handle image preview (temporary URL)
       const imageURL = imageInput.files.length > 0
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
       if (courses.length > 0) {
         resultHTML += `<p><strong>Courses I'm Taking:</strong></p><ul>`;
-        courses.forEach(course => {
+        courses.forEach(course >= {
           resultHTML += `<li>${course}</li>`;
         });
         resultHTML += `</ul>`;
