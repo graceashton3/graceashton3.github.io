@@ -181,8 +181,8 @@ caption {
     margin-bottom: 10px;
 }
 
-/* Form Styles for BYO Intro (Only the form on the Intro Page) */
-.intro-form {
+/* Only apply styles when on the BYO Intro page */
+body.intro-page .intro-form {
     border: 2px solid darkgreen; /* Adding a border to the form */
     padding: 20px;
     margin: 20px 0;
@@ -193,13 +193,16 @@ caption {
 }
 
 /* Ensure Form Fields are Styled */
-.intro-form label {
+body.intro-page .intro-form label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
 }
 
-.intro-form input[type="text"], .intro-form textarea, .intro-form input[type="file"], .intro-form input[type="checkbox"] {
+body.intro-page .intro-form input[type="text"], 
+body.intro-page .intro-form textarea, 
+body.intro-page .intro-form input[type="file"], 
+body.intro-page .intro-form input[type="checkbox"] {
     width: 100%;
     padding: 8px;
     margin-bottom: 12px;
@@ -207,16 +210,20 @@ caption {
     border-radius: 4px;
 }
 
-.intro-form input[type="text"]:focus, .intro-form textarea:focus, .intro-form input[type="file"]:focus {
+body.intro-page .intro-form input[type="text"]:focus, 
+body.intro-page .intro-form textarea:focus, 
+body.intro-page .intro-form input[type="file"]:focus {
     border-color: darkgreen;
 }
 
-.intro-form input[type="checkbox"] {
+body.intro-page .intro-form input[type="checkbox"] {
     width: auto;
     margin-right: 5px;
 }
 
-.intro-form button, .intro-form input[type="submit"], .intro-form input[type="reset"] {
+body.intro-page .intro-form button, 
+body.intro-page .intro-form input[type="submit"], 
+body.intro-page .intro-form input[type="reset"] {
     background-color: darkgreen;
     color: white;
     padding: 10px 20px;
@@ -226,52 +233,17 @@ caption {
     margin-top: 10px;
 }
 
-.intro-form button:hover, .intro-form input[type="submit"]:hover, .intro-form input[type="reset"]:hover {
+body.intro-page .intro-form button:hover, 
+body.intro-page .intro-form input[type="submit"]:hover, 
+body.intro-page .intro-form input[type="reset"]:hover {
     background-color: #2a5a1a;
 }
 
-/* Uncentered Layout for the Introduction Page (form only) */
-.intro-page {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Align text to the left */
-    text-align: left; /* Align text to the left */
-    padding: 20px;
-}
-
-.intro-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-    max-width: 800px;
-}
-
-.intro-content ul {
-    text-align: left;
-}
-
-/* Responsive Design */
+/* Responsive Design for BYO Intro Form */
 @media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    nav ul li {
-        padding: 8px 16px;
-    }
-
-    table {
-        font-size: 0.9em;
-    }
-
-    th, td {
-        padding: 8px;
-    }
-
-    .intro-form {
+    body.intro-page .intro-form {
         width: 90%; /* Make form more flexible on small screens */
         margin-left: 5%; /* Slightly center on small screens */
     }
 }
+
