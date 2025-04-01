@@ -1,7 +1,3 @@
-/* Apply box-sizing fix globally */
-* {
-    box-sizing: border-box;
-}
 
 /* General Styles */
 body {
@@ -254,7 +250,7 @@ caption {
 .intro-form input[type="text"],
 .intro-form textarea,
 .intro-form input[type="file"] {
-    width: 100%;
+    width: calc(100% - 24px); /* 20px padding + 2px border = 22px, plus a little buffer */
     padding: 10px;
     margin-bottom: 12px;
     border: 1px solid #ddd;
