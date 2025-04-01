@@ -15,7 +15,7 @@ h1, h2, h3 {
     color: darkgreen;
     text-decoration: none;
     text-align: center;
-/* Navigation Styles */
+}
 nav {
     background-color: #A8D5BA;
     padding: 10px 0;
