@@ -181,22 +181,32 @@ caption {
     margin-bottom: 10px;
 }
 
-/* Only apply styles when on the BYO Intro page */
-body.intro-page .intro-form {
-    border: 2px solid darkgreen; /* Adding a border to the form */
-    padding: 20px;
-    margin: 20px 0;
-    background-color: white;
-    width: 70%; /* Make the form a little smaller */
-    margin-left: 15%; /* Uncenter the form */
-    display: block; /* Ensure it's displayed as a block */
+/* Center the entire BYO Intro page content */
+body.intro-page main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
 }
 
-/* Ensure Form Fields are Styled */
+/* Center form and its content */
+body.intro-page .intro-form {
+    border: 2px solid darkgreen;
+    padding: 20px;
+    background-color: white;
+    width: 60%; /* Adjust form width */
+    margin: 20px auto; /* Center form horizontally */
+    display: block;
+}
+
+/* Form Labels and Inputs */
 body.intro-page .intro-form label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
+    text-align: left; /* Keep the label aligned left */
 }
 
 body.intro-page .intro-form input[type="text"], 
@@ -239,11 +249,14 @@ body.intro-page .intro-form input[type="reset"]:hover {
     background-color: #2a5a1a;
 }
 
-/* Responsive Design for BYO Intro Form */
+/* Responsive Design */
 @media (max-width: 768px) {
     body.intro-page .intro-form {
-        width: 90%; /* Make form more flexible on small screens */
-        margin-left: 5%; /* Slightly center on small screens */
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    body.intro-page main {
+        padding: 10px;
     }
 }
-
