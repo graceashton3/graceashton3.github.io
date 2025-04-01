@@ -1,5 +1,4 @@
 
-/* General Styles */
 body {
     background-color: rgb(214, 221, 220);
     margin: 0;
@@ -42,7 +41,7 @@ a:hover {
 }
 
 nav {
-    background-color: #A8D5BA; /* Header nav bar color */
+    background-color: #A8D5BA;
     padding: 10px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
@@ -208,7 +207,7 @@ caption {
     text-align: center;
 }
 
-/* Ensure the image is centered and bigger */
+/* Image Styling */
 .centered-image {
     display: block;
     max-width: 300px;
@@ -217,28 +216,28 @@ caption {
     border-radius: 8px;
 }
 
-/* Keep the list left-aligned while centering it in the container */
+/* Content Layout */
 .intro-content {
-    display: block; /* Changed from flex */
+    display: block;
     max-width: 800px;
     margin: 0 auto;
-  }
+}
 
-.intro-content ul {
-    text-align: left;
+/* Left-align lists inside intro-content */
+.intro-content ul,
+.intro-content ul li,
+.intro-page ul,
+.intro-page ul li {
+    text-align: left !important;
     list-style-position: outside;
-    display: block;
+    display: list-item;
     margin-left: 0;
     padding-left: 40px;
-  }
-  .intro-content ul li {
-    text-align: left;
-    display: list-item;
-  }
+}
 
 /* Form Styling */
 .intro-form {
-    width: calc(60% - 44px); /* 20px padding on left/right + 2px border each side */
+    width: calc(60% - 44px);
     padding: 20px;
     margin: 20px auto;
     background-color: white;
@@ -257,7 +256,7 @@ caption {
 .intro-form input[type="text"],
 .intro-form textarea,
 .intro-form input[type="file"] {
-    width: calc(100% - 24px); /* 20px padding + 2px border = 22px, plus a little buffer */
+    width: calc(100% - 24px);
     padding: 10px;
     margin-bottom: 12px;
     border: 1px solid #ddd;
