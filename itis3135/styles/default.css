@@ -9,11 +9,11 @@ main {
     max-width: 1200px;
     width: 90%;
     margin: 0 auto;
-    color:darkgreen;
 }
 header {
     text-align: center;
     font-size: 18px;
+    color:darkgreen;
 }
 h1, h2, h3 {
     color: darkgreen;
