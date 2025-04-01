@@ -1,3 +1,8 @@
+/* Apply box-sizing fix globally */
+* {
+    box-sizing: border-box;
+}
+
 /* General Styles */
 body {
     background-color: rgb(214, 221, 220);
@@ -41,14 +46,13 @@ a:hover {
 }
 
 nav {
-    background-color: #A8D5BA;
+    background-color: #A8D5BA; /* Header nav bar color */
     padding: 10px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
     text-align: center;
 }
 
-/* For nav bars using UL/LI structure */
 nav ul {
     display: flex;
     justify-content: center;
@@ -74,7 +78,7 @@ nav ul li a {
     font-size: 18px;
 }
 
-/* NEW: For nav bars using just <a> (like the BYO page) */
+/* For nav bars using just <a> (like the BYO page) */
 nav a {
     display: inline-block;
     margin: 0 12px;
@@ -312,5 +316,3 @@ caption {
         width: 90%;
     }
 }
-
-
