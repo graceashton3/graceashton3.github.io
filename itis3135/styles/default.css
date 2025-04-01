@@ -96,6 +96,7 @@ footer a {
 
 /* Form Styling */
 .intro-form {
+    box-sizing: border-box;
     width: 60%;
     padding: 20px;
     margin: 20px auto;
