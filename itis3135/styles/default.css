@@ -12,26 +12,14 @@ main {
 }
 
 header {
-    color: darkgreen;
     text-align: center;
     font-size: 18px;
 }
 
-h1, h2, h3 {
-    color: darkgreen;
-    text-align: center;
-}
-
-h1 a, h2 a, h3 a {
+header h1, header h2, header h3 {
     color: darkgreen;
     text-decoration: none;
-    border-bottom: none;
-    display: inline-block;
 }
-
-
-
-
 /* Navigation Styles */
 nav {
     background-color: #A8D5BA;
