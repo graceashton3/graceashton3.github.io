@@ -206,3 +206,21 @@ caption {
         padding: 8px;
     }
 }
+/* Only apply these styles to the introduction page */
+.intro-page {
+    text-align: center; /* Centers inline content */
+}
+
+/* Center the image */
+.intro-page figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Center list items while keeping bullet points aligned */
+.intro-page .all-about-me ul {
+    display: inline-block;
+    text-align: left;
+}
