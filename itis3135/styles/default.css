@@ -181,8 +181,8 @@ caption {
     margin-bottom: 10px;
 }
 
-/* Form Styles */
-form {
+/* Form Styles for BYO Intro (Only the form on the Intro Page) */
+.intro-form {
     border: 2px solid darkgreen; /* Adding a border to the form */
     padding: 20px;
     margin: 20px 0;
@@ -193,13 +193,13 @@ form {
 }
 
 /* Ensure Form Fields are Styled */
-form label {
+.intro-form label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
 }
 
-form input[type="text"], form textarea, form input[type="file"], form input[type="checkbox"] {
+.intro-form input[type="text"], .intro-form textarea, .intro-form input[type="file"], .intro-form input[type="checkbox"] {
     width: 100%;
     padding: 8px;
     margin-bottom: 12px;
@@ -207,16 +207,16 @@ form input[type="text"], form textarea, form input[type="file"], form input[type
     border-radius: 4px;
 }
 
-form input[type="text"]:focus, form textarea:focus, form input[type="file"]:focus {
+.intro-form input[type="text"]:focus, .intro-form textarea:focus, .intro-form input[type="file"]:focus {
     border-color: darkgreen;
 }
 
-form input[type="checkbox"] {
+.intro-form input[type="checkbox"] {
     width: auto;
     margin-right: 5px;
 }
 
-form button, form input[type="submit"], form input[type="reset"] {
+.intro-form button, .intro-form input[type="submit"], .intro-form input[type="reset"] {
     background-color: darkgreen;
     color: white;
     padding: 10px 20px;
@@ -226,7 +226,7 @@ form button, form input[type="submit"], form input[type="reset"] {
     margin-top: 10px;
 }
 
-form button:hover, form input[type="submit"]:hover, form input[type="reset"]:hover {
+.intro-form button:hover, .intro-form input[type="submit"]:hover, .intro-form input[type="reset"]:hover {
     background-color: #2a5a1a;
 }
 
@@ -270,7 +270,7 @@ form button:hover, form input[type="submit"]:hover, form input[type="reset"]:hov
         padding: 8px;
     }
 
-    form {
+    .intro-form {
         width: 90%; /* Make form more flexible on small screens */
         margin-left: 5%; /* Slightly center on small screens */
     }
