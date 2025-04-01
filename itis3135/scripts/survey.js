@@ -153,7 +153,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
       if (courses.length > 0) {
         resultHTML += `<p><strong>Courses I'm Taking:</strong></p><ul>`;
-        courses.forEach(course => {
+        courses.forEach(course >= {
           resultHTML += `<li>${course}</li>`;
         });
         resultHTML += `</ul>`;
