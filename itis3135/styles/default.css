@@ -44,8 +44,11 @@ nav {
     background-color: #A8D5BA; /* Header nav bar color */
     padding: 10px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
 }
 
+/* For nav bars using UL/LI structure */
 nav ul {
     display: flex;
     justify-content: center;
@@ -71,9 +74,25 @@ nav ul li a {
     font-size: 18px;
 }
 
+/* NEW: For nav bars using just <a> (like the BYO page) */
+nav a {
+    display: inline-block;
+    margin: 0 12px;
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    font-size: larger;
+    color: darkgreen;
+}
+
 /* Footer Styles */
 footer {
-    background-color: darkgreen; /* Keeping the footer background dark green */
+    background-color: darkgreen;
     color: white;
     display: flex;
     flex-direction: column;
@@ -83,8 +102,8 @@ footer {
 }
 
 footer nav {
-    background-color: transparent; /* Remove the background color for footer nav */
-    padding: 0; /* Reset padding if necessary */
+    background-color: transparent;
+    padding: 0;
 }
 
 footer nav ul {
@@ -186,13 +205,13 @@ caption {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center; /* Centers the text */
+    text-align: center;
 }
 
 /* Ensure the image is centered and bigger */
 .centered-image {
     display: block;
-    max-width: 70%; /* Increased image size */
+    max-width: 70%;
     height: auto;
     margin: 10px auto;
     border-radius: 8px;
@@ -203,22 +222,22 @@ caption {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 800px; /* Adjust for better readability */
+    max-width: 800px;
 }
 
 .intro-content ul {
-    text-align: left; /* Keeps bullet points aligned */
+    text-align: left;
 }
 
 /* Form Styling */
 .intro-form {
-    border: 2px solid #4CAF50; /* Green border */
+    border: 2px solid #4CAF50;
     padding: 20px;
     background-color: white;
-    width: 60%; /* Adjust form width */
-    margin: 20px auto; /* Center the form */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 60%;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .intro-form label {
@@ -242,7 +261,7 @@ caption {
 .intro-form input[type="text"]:focus,
 .intro-form textarea:focus,
 .intro-form input[type="file"]:focus {
-    border-color: #4CAF50; /* Highlight border color */
+    border-color: #4CAF50;
     outline: none;
 }
 
@@ -254,7 +273,7 @@ caption {
 .intro-form button,
 .intro-form input[type="submit"],
 .intro-form input[type="reset"] {
-    background-color: #4CAF50; /* Button background color */
+    background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -267,7 +286,7 @@ caption {
 .intro-form button:hover,
 .intro-form input[type="submit"]:hover,
 .intro-form input[type="reset"]:hover {
-    background-color: #45a049; /* Darker shade on hover */
+    background-color: #45a049;
 }
 
 /* Responsive Design */
@@ -290,7 +309,7 @@ caption {
     }
 
     .intro-form {
-        width: 90%; /* Make the form wider on small screens */
+        width: 90%;
     }
 }
 
