@@ -47,6 +47,7 @@ nav ul li {
 nav ul li:hover {
     background-color: darkgreen;
     border-radius: 5px;
+    color:darkgreen;
 }
 
 nav ul li a {
