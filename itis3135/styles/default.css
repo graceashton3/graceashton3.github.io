@@ -14,9 +14,10 @@ main {
 header {
     text-align: center;
     font-size: 18px;
+    color:darkgreen;
 }
 
-header h1, header h2, header h3 {
+header > h1, header > h2, header > h3 {
     color: darkgreen;
     text-decoration: none;
 }
