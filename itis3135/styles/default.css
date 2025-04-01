@@ -11,16 +11,10 @@ main {
     margin: 0 auto;
 }
 
-header {
-    text-align: center;
-    font-size: 18px;
-    color:darkgreen;
-}
-
-h1 a, h2 a, h3 a{
+h1, h2, h3 {
     color: darkgreen;
     text-decoration: none;
-}
+    text-align: center;
 /* Navigation Styles */
 nav {
     background-color: #A8D5BA;
