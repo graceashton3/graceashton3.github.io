@@ -17,19 +17,23 @@ header {
     font-size: 18px;
 }
 
-h1 {
-    font-size: 2.5rem; /* Scales automatically */
+/* Define Headings Once */
+h1, h2, h3 {
     text-align: center;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+h1 {
+    font-size: 2.5rem;
 }
 
 h2 {
     font-size: 2rem;
-    text-align: center;
 }
 
 h3 {
     font-size: 1.5rem;
-    text-align: center;
 }
 
 .home, .all-about-me, .contract, .navigation {
@@ -56,12 +60,7 @@ li::marker {
     color: black;
 }
 
-.footer-imgs {
-    border: 0;
-    width: 88px;
-    height: 31px;
-}
-
+/* Footer Styles */
 footer {
     background-color: darkgreen;
     color: white;
@@ -85,33 +84,9 @@ footer nav ul li {
     margin: 0 10px;
 }
 
-.footer-imgs {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 10px;
-}
-
-.footer-imgs img {
-    width: 88px;
-    height: 31px;
-}
-
 footer a {
     color: white;
     text-decoration: none;
-}
-
-footer p, footer nav ul, footer nav ul li {
-    color: white;
-}
-
-footer p strong {
-    color: white;
-}
-
-footer a:link, footer a:visited {
-    color: white;
 }
 
 nav {
@@ -145,43 +120,6 @@ nav ul li a {
     color: white;
     font-weight: bold;
     font-size: 18px;
-}
-
-/* Footer Styles */
-footer {
-    width: 100%;
-    background-color: darkgreen;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 20px 0;
-    position: relative;
-    bottom: 0;
-    left: 0;
-}
-
-footer p, footer nav ul, footer nav ul li, footer p strong {
-    color: white;
-}
-
-footer nav {
-    width: 100%;
-    background-color: darkgreen;
-}
-
-footer nav ul {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-footer nav ul li {
-    flex-grow: 1;
-    text-align: center;
 }
 
 /* Form Styling */
@@ -314,7 +252,7 @@ img {
         width: 95%;
     }
     h1 {
-        font-size: 2rem;
+        font-size: 2rem; /* Adjust font sizes in media query */
     }
     h2 {
         font-size: 1.7rem;
@@ -350,3 +288,4 @@ img {
         width: 60%;
     }
 }
+
