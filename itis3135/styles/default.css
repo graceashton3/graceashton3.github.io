@@ -10,15 +10,28 @@ main {
     width: 90%;
     margin: 0 auto;
 }
+
 header {
     color: darkgreen;
     text-align: center;
     font-size: 18px;
 }
-  
-h1, h2, h3 {
+
+h1 {
+    font-size: 2.5rem; /* Scales automatically */
     text-align: center;
 }
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
 .home, .all-about-me, .contract, .navigation {
     color: black;
     font-size: 18px;
@@ -28,14 +41,17 @@ a:link {
     color: darkgreen;
     text-decoration: none;
 }
+
 a:visited {
     color: darkgreen;
 }
+
 a:hover {
     color: darkgreen;
     text-decoration: underline;
     font-size: larger;
 }
+
 li::marker {
     color: black;
 }
@@ -55,6 +71,7 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
 footer nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -63,29 +80,36 @@ footer nav ul {
     padding: 0;
     margin-bottom: 10px;
 }
+
 footer nav ul li {
     margin: 0 10px;
 }
+
 .footer-imgs {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-top: 10px;
 }
+
 .footer-imgs img {
     width: 88px;
     height: 31px;
 }
+
 footer a {
     color: white;
     text-decoration: none;
 }
+
 footer p, footer nav ul, footer nav ul li {
-    color: white; 
+    color: white;
 }
+
 footer p strong {
     color: white;
 }
+
 footer a:link, footer a:visited {
     color: white;
 }
@@ -138,12 +162,7 @@ footer {
 }
 
 footer p, footer nav ul, footer nav ul li, footer p strong {
-    color: white; 
-}
-
-footer a {
-    color: white; /* Ensures links in the footer are white */
-    text-decoration: none;
+    color: white;
 }
 
 footer nav {
@@ -263,19 +282,22 @@ caption {
     font-weight: bold;
     margin-bottom: 10px;
 }
+
 img {
-    max-width: 50%;  /* Ensures the image will not overflow its container */
-    height: auto;     /* Maintains the aspect ratio of the image */
+    max-width: 50%;
+    height: auto;
 }
 
 .intro-page {
     text-align: center;
     color: darkgreen;
 }
+
 .intro-content {
     text-align: left;
     color: black;
 }
+
 .caption {
     color: black;
 }
@@ -291,8 +313,14 @@ img {
     .intro-form {
         width: 95%;
     }
-    h1, h2, h3 {
-        font-size: 1.2em;
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.7rem;
+    }
+    h3 {
+        font-size: 1.3rem;
     }
 }
 
@@ -304,6 +332,15 @@ img {
     }
     .intro-form {
         width: 80%;
+    }
+    h1 {
+        font-size: 2.2rem;
+    }
+    h2 {
+        font-size: 1.9rem;
+    }
+    h3 {
+        font-size: 1.4rem;
     }
 }
 
