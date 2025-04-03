@@ -10,32 +10,15 @@ main {
     width: 90%;
     margin: 0 auto;
 }
-
 header {
     color: darkgreen;
     text-align: center;
     font-size: 18px;
 }
-
-/* Define Headings Once */
+  
 h1, h2, h3 {
     text-align: center;
-    font-family: Arial, sans-serif;
-    color: black;
 }
-
-h1 {
-    font-size: 2.5rem;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
-h3 {
-    font-size: 1.5rem;
-}
-
 .home, .all-about-me, .contract, .navigation {
     color: black;
     font-size: 18px;
@@ -45,22 +28,24 @@ a:link {
     color: darkgreen;
     text-decoration: none;
 }
-
 a:visited {
     color: darkgreen;
 }
-
 a:hover {
     color: darkgreen;
     text-decoration: underline;
     font-size: larger;
 }
-
 li::marker {
     color: black;
 }
 
-/* Footer Styles */
+.footer-imgs {
+    border: 0;
+    width: 88px;
+    height: 31px;
+}
+
 footer {
     background-color: darkgreen;
     color: white;
@@ -70,7 +55,6 @@ footer {
     text-align: center;
     padding: 15px;
 }
-
 footer nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -79,14 +63,31 @@ footer nav ul {
     padding: 0;
     margin-bottom: 10px;
 }
-
 footer nav ul li {
     margin: 0 10px;
 }
-
+.footer-imgs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.footer-imgs img {
+    width: 88px;
+    height: 31px;
+}
 footer a {
     color: white;
     text-decoration: none;
+}
+footer p, footer nav ul, footer nav ul li {
+    color: white; 
+}
+footer p strong {
+    color: white;
+}
+footer a:link, footer a:visited {
+    color: white;
 }
 
 nav {
@@ -120,6 +121,48 @@ nav ul li a {
     color: white;
     font-weight: bold;
     font-size: 18px;
+}
+
+/* Footer Styles */
+footer {
+    width: 100%;
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+footer p, footer nav ul, footer nav ul li, footer p strong {
+    color: white; 
+}
+
+footer a {
+    color: white; /* Ensures links in the footer are white */
+    text-decoration: none;
+}
+
+footer nav {
+    width: 100%;
+    background-color: darkgreen;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+footer nav ul li {
+    flex-grow: 1;
+    text-align: center;
 }
 
 /* Form Styling */
@@ -220,22 +263,19 @@ caption {
     font-weight: bold;
     margin-bottom: 10px;
 }
-
 img {
-    max-width: 50%;
-    height: auto;
+    max-width: 50%;  /* Ensures the image will not overflow its container */
+    height: auto;     /* Maintains the aspect ratio of the image */
 }
 
 .intro-page {
     text-align: center;
     color: darkgreen;
 }
-
 .intro-content {
     text-align: left;
     color: black;
 }
-
 .caption {
     color: black;
 }
@@ -251,14 +291,8 @@ img {
     .intro-form {
         width: 95%;
     }
-    h1 {
-        font-size: 2rem; /* Adjust font sizes in media query */
-    }
-    h2 {
-        font-size: 1.7rem;
-    }
-    h3 {
-        font-size: 1.3rem;
+    h1, h2, h3 {
+        font-size: 1.2em;
     }
 }
 
@@ -271,15 +305,6 @@ img {
     .intro-form {
         width: 80%;
     }
-    h1 {
-        font-size: 2.2rem;
-    }
-    h2 {
-        font-size: 1.9rem;
-    }
-    h3 {
-        font-size: 1.4rem;
-    }
 }
 
 /* Large devices (≥1025px) */
@@ -288,4 +313,5 @@ img {
         width: 60%;
     }
 }
+
 
