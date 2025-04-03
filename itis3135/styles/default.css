@@ -14,36 +14,38 @@ header {
     color: darkgreen;
     text-align: center;
     font-size: 18px;
-  }
+}
   
-  h1, h2, h3 {
+h1, h2, h3 {
     text-align: center;
-  }
-  .home, .all-about-me, .contract, .navigation {
+}
+.home, .all-about-me, .contract, .navigation {
     color: black;
     font-size: 18px;
 }
 
-a:link{
+a:link {
     color: darkgreen;
-    text-decoration:none;
+    text-decoration: none;
 }
-a:visited{
+a:visited {
     color: darkgreen;
 }
-a:hover{
-    color:darkgreen;
-    text-decoration:underline;
+a:hover {
+    color: darkgreen;
+    text-decoration: underline;
     font-size: larger;
 }
-li::marker{
+li::marker {
     color: black;
 }
-.footer-imgs{
-    border:0;
-    width:88px;
-    height:31px;
+
+.footer-imgs {
+    border: 0;
+    width: 88px;
+    height: 31px;
 }
+
 footer {
     background-color: darkgreen;
     color: white;
@@ -74,9 +76,9 @@ footer nav ul li {
     width: 88px;
     height: 31px;
 }
-footer a{
-    color:white;
-    text-decoration:none;
+footer a {
+    color: white;
+    text-decoration: none;
 }
 footer p, footer nav ul, footer nav ul li {
     color: white; 
@@ -87,6 +89,7 @@ footer p strong {
 footer a:link, footer a:visited {
     color: white;
 }
+
 nav {
     background-color: #A8D5BA;
     padding: 10px 0;
@@ -107,20 +110,17 @@ nav ul {
 nav ul li {
     padding: 10px 20px;
     transition: background-color 0.3s ease-in-out;
-
 }
 
 nav ul li:hover {
     background-color: darkgreen;
     border-radius: 5px;
-
 }
 
 nav ul li a {
     color: white;
     font-weight: bold;
     font-size: 18px;
-
 }
 
 /* Footer Styles */
@@ -164,7 +164,6 @@ footer nav ul li {
     flex-grow: 1;
     text-align: center;
 }
-
 
 /* Form Styling */
 .intro-form {
@@ -213,17 +212,6 @@ footer nav ul li {
     background-color: #45a049;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .intro-form {
-        width: 90%;
-    }
-}
 /* Table Styles */
 table {
     width: 100%;
@@ -280,14 +268,48 @@ img {
     height: auto;     /* Maintains the aspect ratio of the image */
 }
 
-.intro-page{
-    text-align:center;
+.intro-page {
+    text-align: center;
     color: darkgreen;
 }
-.intro-content{
-    text-align:left;
-    color:black;
+.intro-content {
+    text-align: left;
+    color: black;
 }
-.caption{
-    color:black;
+.caption {
+    color: black;
+}
+
+/* Responsive Design - Multiple Breakpoints */
+
+/* Small devices (≤600px) */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .intro-form {
+        width: 95%;
+    }
+    h1, h2, h3 {
+        font-size: 1.2em;
+    }
+}
+
+/* Medium devices (601px - 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    nav ul {
+        flex-direction: row;
+        gap: 15px;
+    }
+    .intro-form {
+        width: 80%;
+    }
+}
+
+/* Large devices (≥1025px) */
+@media (min-width: 1025px) {
+    .intro-form {
+        width: 60%;
+    }
 }
