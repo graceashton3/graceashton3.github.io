@@ -279,3 +279,7 @@ img {
     max-width: 50%;  /* Ensures the image will not overflow its container */
     height: auto;     /* Maintains the aspect ratio of the image */
 }
+
+.intro-page, .intro-content{
+    text-align:center;
+}
