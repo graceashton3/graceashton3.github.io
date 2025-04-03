@@ -280,6 +280,6 @@ img {
     height: auto;     /* Maintains the aspect ratio of the image */
 }
 
-.intro-page, .intro-content{
+.intro-page{
     text-align:center;
 }
