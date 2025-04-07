@@ -109,4 +109,44 @@ body {
   }
   
 
-  
+/* About Us Page Styles */
+
+.about-section,
+.advocacy-section,
+.community-section {
+  background-color: #BDE0FE;
+  border-left: 5px solid #FFC8DD;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.about-section h3,
+.advocacy-section h3,
+.community-section h3 {
+  color: #FFAFCC;
+  margin-top: 0;
+}
+
+.about-section p,
+.advocacy-section p,
+.community-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Gallery styling */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 3px solid #A2D2FF;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
