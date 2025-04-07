@@ -148,3 +148,26 @@ body {
   border: 3px solid #A2D2FF;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
+.success-section {
+    background-color: #BDE0FE;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .success-section h3 {
+    color: #FFAFCC;
+    margin-top: 0;
+  }
+  
+  .success-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .success-section:last-of-type {
+    margin-bottom: 0;
+  }
+  
