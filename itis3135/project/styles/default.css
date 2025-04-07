@@ -58,12 +58,6 @@ body {
     border-radius: 1rem;
     padding: 1.5rem;
   }
-  .feature-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    margin-top: 1rem;
-  }
   
   .feature {
     display: inline-block;
