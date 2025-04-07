@@ -79,5 +79,30 @@ body {
     padding: 1rem;
     margin-top: 2rem;
   }
+  
+  footer ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer ul li {
+    display: inline; /* Display items in a line */
+    margin-right: 10px; /* Add space between the links */
+  }
+  
+  footer ul li:last-child {
+    margin-right: 0; /* Remove margin from the last link */
+  }
+  
+  footer ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Change the color of the links */
+  }
+  
+  footer ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
 
   
