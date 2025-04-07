@@ -121,11 +121,12 @@ body {
   margin-bottom: 2rem;
 }
 
-h3 {
-    color: #FFAFCC;
-    margin-top: 0;
-  }
-  
+.about-section h3,
+.advocacy-section h3,
+.community-section h3 {
+  color: #FFAFCC;
+  margin-top: 0;
+}
 
 .about-section p,
 .advocacy-section p,
