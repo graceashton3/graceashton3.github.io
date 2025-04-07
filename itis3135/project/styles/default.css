@@ -59,20 +59,24 @@ body {
     padding: 1.5rem;
   }
   .feature-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
+    display: block;
     margin-top: 1rem;
   }
   
-  
   .feature {
+    display: inline-block;
+    width: calc(33.33% - 16px); /* Adjust percentage and gap as needed */
+    margin-right: 16px;
+    margin-bottom: 16px;
     background-color: #FFF;
     padding: 1rem;
     border-radius: 0.5rem;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
   }
   
+  .feature:nth-child(3n) {
+    margin-right: 0;
+  }
   footer {
     background-color: #CDB4DB;
     text-align: center;
