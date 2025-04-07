@@ -39,3 +39,44 @@ body {
     padding: 2rem;
     background-color: #FFF;
   }
+  .hero {
+    background-color: #FFC8DD;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .intro {
+    background-color: #BDE0FE;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .features {
+    background-color: #FFAFCC;
+    border-radius: 1rem;
+    padding: 1.5rem;
+  }
+  
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .feature {
+    background-color: #FFF;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  footer {
+    background-color: #CDB4DB;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
