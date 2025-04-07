@@ -58,11 +58,10 @@ body {
     border-radius: 1rem;
     padding: 1.5rem;
   }
-  
-  .feature-grid {
+  .feature-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 24px;
+    grid-gap:24px;
   }
   
   .feature {
