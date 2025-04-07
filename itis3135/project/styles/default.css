@@ -99,7 +99,7 @@ body {
   
   footer ul li a {
     text-decoration: none; /* Remove underline */
-    color: #333; /* Change the color of the links */
+    color:white; /* Change the color of the links */
   }
   
   footer ul li a:hover {
