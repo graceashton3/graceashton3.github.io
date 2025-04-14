@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> My Homepage!</title>
+		<meta charset ="UTF-8">
+		<meta name="viewport" content="width=device, initial-scale=1.0">
+
+		<script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+	<header>
+		<h1>Grace Ashton || ITIS 3135</h1>
+	</header>
+
+    <main>
+		<h2>Welcome to my homepage!</h2>
+		<p>Your go-to source for everything ITIS 3135!</p>
+
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <img src="img_woods_wide.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="img_5terre_wide.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <img src="img_mountains_wide.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <img src="img_lights_wide.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="img_nature_wide.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+        <img src="img_snow_wide.jpg" style="width:100%">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="img_woods.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img_5terre.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img_mountains.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img_lights.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img_nature.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img_snow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+    <nav>
+        <ul>
+            <li><a href="https://webpages.charlotte.edu/mashton1/" target="blank">UNCC Home Page</a></li>
+            <li><a href="https://github.com/graceashton3" target="blank">GitHub</a></li>
+            <li><a href="https://graceashton3.github.io" target="blank">GitHub.io</a></li>
+            <li><a href="https://graceashton3.github.io/itis3135" target="blank">ITIS3135.io</a></li>
+            <li><a href="https://www.freecodecamp.org/graceashton3" target="blank">FreeCodeCamp</a></li>
+            <li><a href="https://www.codecademy.com/profiles/grace_ashton3" target="blank">Codecademy</a></li>
+            <li><a href="https://www.linkedin.com/in/grace-ashton-967726299/" target="blank">LinkedIn</a></li>
+        </ul>
+    </nav>
+    <p>Designed by <strong>Ashton Designs</strong> &copy; <span id="year"></span></p>
+    <!--HTML & CSS Validation Buttons-->
+        <div class="footer-imgs">
+            <a href="https://validator.w3.org/check?uri=referer" id="validation-link-html">
+                <img src="https://mytienhoang.github.io/itis3135/z_archives/html_validation.png" alt="Valid HTML!">
+            </a>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer" id="validation-link-css">
+                <img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+            </a>
+        </div>
+</footer>
+<!-- JavaScript to set dynamic URLs and current year -->
+    <script>
+    // Set validation links dynamically
+    document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+    document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+  
+    // Set current year dynamically
+    document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</html>
