@@ -354,7 +354,6 @@ img {
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
-    width: 100%;
     text-align: center;
 }
 
@@ -385,12 +384,7 @@ img {
     color: black;
     border-radius: 0 0 10px 10px;
 }
-/* Apply box-sizing globally to avoid width + padding issues */
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
+
 
 
 
