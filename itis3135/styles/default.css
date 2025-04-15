@@ -314,7 +314,7 @@ img {
 }
 .slideshow-container img {
     width: 70%;         /* Try 50%, 70%, or a fixed value like 600px */
-    height: 50%;
+    height: 30%;
     display: block;
     margin: 0 auto;     /* Center the image */
     border-radius: 8px;
