@@ -2,7 +2,6 @@ let slideIndex = 1;
 
 function showSlides(n) {
   const slides = document.getElementsByClassName("mySlides");
-  const dots = document.getElementsByClassName("dot");
 
   if (n > slides.length) {
     slideIndex = 1;
@@ -11,16 +10,13 @@ function showSlides(n) {
     slideIndex = slides.length;
   }
 
+  // Hide all slides
   for (let i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
 
-  for (let i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-
+  // Show the current slide
   slides[slideIndex - 1].style.display = "block";
-  dots[slideIndex - 1].className += " active";
 }
 
 function plusSlides(n) {
@@ -33,4 +29,5 @@ function currentSlide(n) {
 
 // Initial call to show the first slide
 showSlides(slideIndex);
+
 
