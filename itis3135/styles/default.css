@@ -411,7 +411,7 @@ img {
 }
 
 /* Responsive for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .slideshow-container {
         max-width: 95%;
     }
