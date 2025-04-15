@@ -1,16 +1,6 @@
 let slideIndex = 1;
-showSlides(slideIndex);
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
+// Function declaration first
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
@@ -36,3 +26,16 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
   captionText.innerHTML = dots[slideIndex - 1].alt;
 }
+
+// Then call it
+showSlides(slideIndex);
+
+// Navigation functions
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
