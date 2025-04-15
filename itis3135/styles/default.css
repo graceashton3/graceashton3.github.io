@@ -314,14 +314,16 @@ img {
 }
 
 .slideshow-container {
-    max-width: 1000px;
+    max-width: 100%;
+    width: 100%;
     position: relative;
     margin: auto;
     background-color: white;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 
 .prev, .next {
     cursor: pointer;
