@@ -1,36 +1,48 @@
 document.addEventListener('DOMContentLoaded', function () {
-    let slideIndex = 1;
-  
-    function showSlides(n) {
+  let slideIndex = 1;
+  const captionText = document.getElementById("caption");
+
+  function showSlides(n) {
       const slides = document.getElementsByClassName("mySlides");
-  
+      const dots = document.getElementsByClassName("demo");
+
       if (n > slides.length) {
-        slideIndex = 1;
+          slideIndex = 1;
       }
       if (n < 1) {
-        slideIndex = slides.length;
+          slideIndex = slides.length;
       }
-  
+
       // Hide all slides
       for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+          slides[i].style.display = "none";
       }
-  
-      // Show the current slide
+
+      // Remove "active" class from all thumbnails
+      for (let i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+
+      // Show the current slide and add "active" to the corresponding thumbnail
       slides[slideIndex - 1].style.display = "block";
-    }
-  
-    function plusSlides(n) {
+      dots[slideIndex - 1].className += " active";
+
+      // Set the caption using the thumbnail's alt text
+      captionText.textContent = dots[slideIndex - 1].alt;
+  }
+
+  window.plusSlides = function(n) {
       showSlides(slideIndex += n);
-    }
-  
-    function currentSlide(n) {
+  }
+
+  window.currentSlide = function(n) {
       showSlides(slideIndex = n);
-    }
-  
-    // Initial call to show the first slide
-    showSlides(slideIndex);
-  });
+  }
+
+  // Initial display
+  showSlides(slideIndex);
+});
+
   
 
 
