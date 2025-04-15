@@ -311,4 +311,104 @@ img {
     }
 }
 
+/* Slideshow Container */
+.slideshow-container {
+    position: relative;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+/* Slides */
+.mySlides {
+    display: none;
+    text-align: center;
+}
+
+.mySlides img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Caption text */
+#caption {
+    color: #333;
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ddd;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 12px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 0.3s ease;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Dots (thumbnails) */
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.demo {
+    cursor: pointer;
+    opacity: 0.6;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    border: 2px solid transparent;
+    max-width: 100px;
+    height: auto;
+}
+
+.demo:hover, .demo.active {
+    opacity: 1;
+    border-color: darkgreen;
+}
+
+/* Responsive Slideshow */
+@media (max-width: 768px) {
+    .prev, .next {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .demo {
+        max-width: 60px;
+    }
+
+    #caption {
+        font-size: 16px;
+    }
+}
+
+
 
