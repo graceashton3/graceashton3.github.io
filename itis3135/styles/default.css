@@ -385,6 +385,12 @@ img {
     color: black;
     border-radius: 0 0 10px 10px;
 }
+/* Apply box-sizing globally to avoid width + padding issues */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 
 
 
