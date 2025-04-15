@@ -264,7 +264,6 @@ caption {
     margin-bottom: 10px;
 }
 img {
-    max-width: 50%;
     height: auto;
 }
 
@@ -383,6 +382,11 @@ img {
     padding: 10px;
     color: black;
     border-radius: 0 0 10px 10px;
+}
+.mySlides img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 
