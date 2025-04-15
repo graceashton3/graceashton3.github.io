@@ -335,7 +335,6 @@ img {
     position: absolute;
     bottom: 8px;
     text-align: center;
-    width: 100%;
 }
 
 /* Navigation arrows */
@@ -345,7 +344,6 @@ img {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    width: auto;
     padding: 16px;
     color: darkgreen;
     font-weight: bold;
@@ -389,7 +387,6 @@ img {
 
 .column {
     float: left;
-    width: 16.66%;
     padding: 5px;
 }
 
