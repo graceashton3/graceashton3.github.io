@@ -264,8 +264,8 @@ caption {
     margin-bottom: 10px;
 }
 img {
-    max-width: 50%;  /* Ensures the image will not overflow its container */
-    height: auto;     /* Maintains the aspect ratio of the image */
+    max-width: 50%;
+    height: auto;
 }
 
 .intro-page {
@@ -281,8 +281,6 @@ img {
 }
 
 /* Responsive Design - Multiple Breakpoints */
-
-/* Small devices (≤600px) */
 @media (max-width: 600px) {
     nav ul {
         flex-direction: column;
@@ -292,8 +290,6 @@ img {
         width: 95%;
     }
 }
-
-/* Medium devices (601px - 1024px) */
 @media (min-width: 601px) and (max-width: 1024px) {
     nav ul {
         flex-direction: row;
@@ -303,61 +299,43 @@ img {
         width: 80%;
     }
 }
-
-/* Large devices (≥1025px) */
 @media (min-width: 1025px) {
     .intro-form {
         width: 60%;
     }
 }
 
-/* Slideshow Container */
-.slideshow-container {
-    position: relative;
-    max-width: 800px;
-    margin: 40px auto;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-}
-
-/* Slides */
+/* Slideshow Styles (added at the end) */
 .mySlides {
     display: none;
-    text-align: center;
-}
-
-.mySlides img {
     width: 100%;
-    height: auto;
+    max-height: 500px;
+    object-fit: cover;
     border-radius: 10px;
 }
 
-/* Caption text */
-#caption {
-    color: #333;
-    font-size: 18px;
-    padding: 15px;
-    text-align: center;
-    background-color: #f4f4f4;
-    border-top: 1px solid #ddd;
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-/* Next & previous buttons */
 .prev, .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
     width: auto;
-    padding: 12px;
     margin-top: -22px;
-    color: white;
+    padding: 16px;
+    color: darkgreen;
     font-weight: bold;
-    font-size: 22px;
-    transition: 0.3s ease;
+    font-size: 20px;
+    transition: 0.3s;
     user-select: none;
-    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 0 3px 3px 0;
 }
 
@@ -367,16 +345,17 @@ img {
 }
 
 .prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0,0,0,0.1);
 }
 
-/* Dots (thumbnails) */
-.row {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin-top: 20px;
-    flex-wrap: wrap;
+.text {
+    color: black;
+    font-size: 16px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
 }
 
 .demo {
@@ -389,26 +368,24 @@ img {
     height: auto;
 }
 
-.demo:hover, .demo.active {
+.demo:hover {
     opacity: 1;
     border-color: darkgreen;
 }
 
-/* Responsive Slideshow */
-@media (max-width: 768px) {
-    .prev, .next {
-        font-size: 18px;
-        padding: 8px;
-    }
-
-    .demo {
-        max-width: 60px;
-    }
-
-    #caption {
-        font-size: 16px;
-    }
+.active {
+    opacity: 1;
+    border-color: darkgreen;
 }
+
+.caption-container {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    color: black;
+    border-radius: 0 0 10px 10px;
+}
+
 
 
 
