@@ -33,11 +33,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
   window.plusSlides = function(n) {
       showSlides(slideIndex += n);
-  }
+  };
 
   window.currentSlide = function(n) {
       showSlides(slideIndex = n);
-  }
+  };
 
   // Initial display
   showSlides(slideIndex);
