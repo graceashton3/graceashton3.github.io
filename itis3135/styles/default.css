@@ -305,6 +305,13 @@ img {
 }
 
 /* Slideshow Styles (added at the end) */
+/* Slideshow Styles */
+.slideshow-container {
+    position: relative;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
 .mySlides {
     display: none;
     width: 100%;
@@ -313,38 +320,14 @@ img {
     border-radius: 10px;
 }
 
-.slideshow-container {
-    position: relative;
-    max-width: 1000px;
-    margin: auto;
-  }
-  
-
-
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: darkgreen;
-    font-weight: bold;
-    font-size: 20px;
-    transition: 0.3s;
-    user-select: none;
-    border-radius: 0 3px 3px 0;
+.mySlides img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
 }
 
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.1);
-}
-
+/* Caption text */
 .text {
     color: black;
     font-size: 16px;
@@ -352,6 +335,62 @@ img {
     position: absolute;
     bottom: 8px;
     text-align: center;
+    width: 100%;
+}
+
+/* Navigation arrows */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: auto;
+    padding: 16px;
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 3px;
+    transition: 0.3s;
+    user-select: none;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 100, 0, 0.2); /* darkgreen with transparency */
+}
+
+/* Caption container below slideshow */
+.caption-container {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+    color: black;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Thumbnail images */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 16.66%;
+    padding: 5px;
 }
 
 .demo {
@@ -364,28 +403,12 @@ img {
     height: auto;
 }
 
-.demo:hover {
-    opacity: 1;
-    border-color: darkgreen;
-}
-
+.demo:hover,
 .active {
     opacity: 1;
     border-color: darkgreen;
 }
 
-.caption-container {
-    text-align: center;
-    background-color: #f2f2f2;
-    padding: 10px;
-    color: black;
-    border-radius: 0 0 10px 10px;
-}
-.mySlides img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
 
 
 
