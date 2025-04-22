@@ -29,6 +29,53 @@
             </ul>
             <h3>WireFrame:</h3>
             <img src="images/wirefram.png" alt="wireframe">
+            <h3>Site Map:</h3>
+            <img src="images/sitemap.png" alt="sitemap">
+            <h3>Page Design:</h3>
+            <ul>
+                <li>
+                    <strong>Home Page:</strong> Searchable and filterable directory of support groups and resources.
+                  </li>
+                  <li>
+                    <strong>Community and Events:</strong> Details about upcoming events for individuals with special needs and their families.
+                  </li>
+                  <li>
+                    <strong>About Us:</strong> Overview of our organization and mission.
+                  </li>
+                  <li>
+                    <strong>Advocacy and Awareness:</strong> Gallery and campaigns to raise awareness.
+                  </li>
+                  <li>
+                    <strong>Success Stories:</strong> Inspirational stories of community impact.
+                  </li>
+                  <li>
+                    <strong>Family and Community Focus:</strong> Highlights community inclusion efforts.
+                  </li>
+                  <li>
+                    <strong>Contact and Support:</strong> Form for visitors to reach out with questions.
+                  </li>
+            </ul>
+            <h3>Dynamic and Functionality on the Website:</h3>
+            <ul>
+                <li>
+                  <strong>Home Page (index.html):</strong> Interactive Resource Finder with filtering, inspired by Autism Speaks.
+                </li>
+                <li>
+                  <strong>Community and Events Page (events.html):</strong> Interactive event calendar similar to Eventbrite.
+                </li>
+                <li>
+                  <strong>Success Stories Page (stories.html):</strong> Story submission form with dynamic content, like The Mighty.
+                </li>
+                <li>
+                  <strong>About Us Page (about.html):</strong> Interactive gallery using lightbox/carousel effect.
+                </li>
+                <li>
+                  <strong>Support Page (support.html):</strong> Interactive FAQ with collapsible sections.
+                </li>
+                <li>
+                  <strong>Accessibility Features:</strong> Text resizing, dark mode, and text-to-speech across all pages.
+                </li>
+              </ul>
 		</main>
 
 </body>
