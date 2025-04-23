@@ -68,13 +68,34 @@ body {
   }
   
   .feature {
-    flex: 1 1 calc(33.333% - 1rem); /* responsive 3-column layout */
+    flex: 1 1 calc(50% - 1rem);
     background-color: #FFC8DD;
     padding: 1rem;
     border-radius: 0.5rem;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
-    box-sizing: border-box;
   }
+
+  .features-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  
+  .feature-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 60%;
+  }
+  
+  .feature-image img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  
   
   footer {
     background-color: #CDB4DB;
