@@ -57,22 +57,23 @@ body {
   }
   
   .features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* creates space between boxes */
     background-color: #BDE0FE;
     border-radius: 1rem;
     padding: 1.5rem;
     border-left: 5px solid #FFC8DD;
-    justify-content: space-between;
+    justify-content: space-between; /* optional: space them out */
   }
   
   .feature {
-    display: inline-block;
-    width: calc(33.33% - 16px); /* Adjust percentage and gap as needed */
-    margin-right: 16px;
-    margin-bottom: 16px;
+    flex: 1 1 calc(33.333% - 1rem); /* responsive 3-column layout */
     background-color: #FFC8DD;
     padding: 1rem;
     border-radius: 0.5rem;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    box-sizing: border-box;
   }
   
   .feature:nth-child(3n) {
