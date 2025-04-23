@@ -56,15 +56,15 @@ body {
     border-left: 5px solid #FFC8DD;
   }
   
-  .features {
+  ..features {
     display: flex;
-    flex-wrap: wrap;
-    gap: 1rem; /* creates space between boxes */
+    flex-direction: column; /* stack vertically */
+    align-items: flex-start; /* align left */
+    gap: 1rem;
     background-color: #BDE0FE;
     border-radius: 1rem;
     padding: 1.5rem;
     border-left: 5px solid #FFC8DD;
-    justify-content: space-between; /* optional: space them out */
   }
   
   .feature {
