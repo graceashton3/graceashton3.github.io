@@ -40,7 +40,7 @@ body {
     background-color: #FFF;
   }
   .hero {
-    background-color: #FFC8DD;
+    background-color: #BDE0FE;
     border-radius: 1rem;
     padding: 1.5rem;
     margin-bottom: 2rem;
@@ -55,7 +55,7 @@ body {
   }
   
   .features {
-    background-color: #FFAFCC;
+    background-color: #BDE0FE;
     border-radius: 1rem;
     padding: 1.5rem;
   }
@@ -107,7 +107,9 @@ body {
     text-decoration: underline; /* Underline on hover */
     color:white;
   }
-  
+  footer a{
+    color:white;
+  }
 
 /* About Us Page Styles */
 
