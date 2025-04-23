@@ -76,9 +76,6 @@ body {
     box-sizing: border-box;
   }
   
-  .feature:nth-child(3n) {
-    margin-right: 0;
-  }
   footer {
     background-color: #CDB4DB;
     text-align: center;
