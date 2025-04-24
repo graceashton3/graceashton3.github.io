@@ -84,10 +84,10 @@ body {
   
   .feature-grid {
     display: flex;
-    flex-wrap: wrap;
     gap: 1rem;
-    max-width: 60%;
-  }  
+    flex-wrap: wrap;
+  }
+   
   
   .feature-image img {
     max-width: 300px;
