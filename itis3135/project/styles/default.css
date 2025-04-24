@@ -68,7 +68,7 @@ body {
   }
   
   .feature {
-    flex: 1 1 calc(50% - 1rem);
+    flex: 1 1 48%;
     background-color: #FFC8DD;
     padding: 1rem;
     border-radius: 0.5rem;
