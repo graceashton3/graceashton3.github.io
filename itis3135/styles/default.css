@@ -444,10 +444,14 @@ img {
 
 .r1{
     text-align:center; 
-    font-size: medium;  
+    font-size: 16px;  
 }
 
-.r1_img{
-    text-align:center;  
-    font-size: medium;
+.r1 ul, .r1 ol, 
+.r1_img ul, .r1_img ol {
+    list-style-position: inside;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    padding: 0;
 }
