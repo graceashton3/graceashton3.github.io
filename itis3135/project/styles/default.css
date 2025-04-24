@@ -68,13 +68,11 @@ body {
   }
   .feature-grid {
     display: flex;
-    flex-wrap: wrap;
+      flex-wrap: wrap;
     gap: 1rem;
     max-width: 60%;
   }
-  
-  
-  
+   
   .feature {
     flex: 1 1 48%;
     background-color: #FFC8DD;
