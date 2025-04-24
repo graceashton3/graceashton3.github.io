@@ -468,3 +468,30 @@ img {
     font-style: italic;
     font-size: 18px;
   }
+
+  .r2{
+    text-align:left; 
+    font-size: 24px;  
+}
+
+.r2_img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+  }
+  
+  .r2_img img {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .r2_img figcaption {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+  }
