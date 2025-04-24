@@ -67,11 +67,12 @@ body {
     border-left: 5px solid #FFC8DD;
   }
   .feature-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
-    max-width: 100%;
+    max-width: 60%;
   }
+  
   
   
   .feature {
