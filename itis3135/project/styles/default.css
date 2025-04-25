@@ -1,142 +1,168 @@
-
+/* ------------------------------
+   Global Styles
+------------------------------ */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #FFF;
-    color: #333;
-  }
-  
-  header {
-    background-color: #CDB4DB;
-    color: #333;
-    text-align: center;
-    padding: 1rem;
-  }
-  
-  h1 {
-    margin: 0;
-    padding:1rem;
-  }
-  
-  .b-nav {
-    background-color: #A2D2FF;
-    padding: 0.5rem;
-    text-align: center;
-  }
-  
-  .b-nav a {
-    color: #333;
-    text-decoration: none;
-    font-weight: bold;
-    margin: 0 0.5rem;
-  }
-  
-  .b-nav a:hover {
-    text-decoration: underline;
-  }
-  
-  main {
-    padding: 2rem;
-    background-color: #FFF;
-  }
-  .hero {
-    background-color: #BDE0FE;
-    border-radius: 1rem;
-    padding: 1.5rem;
-    margin-bottom: 2rem;
-    text-align: center;
-    border-left: 5px solid #FFC8DD;
-  }
-  
-  .intro {
-    background-color: #BDE0FE;
-    border-radius: 1rem;
-    padding: 1.5rem;
-    margin-bottom: 2rem;
-    border-left: 5px solid #FFC8DD;
-  }
-  
-  .features {
-    display: flex;
-    flex-direction: column; /* stack vertically */
-    align-items: flex-start; /* align left */
-    gap: 1rem;
-    background-color: #BDE0FE;
-    border-radius: 1rem;
-    padding: 1.5rem;
-    border-left: 5px solid #FFC8DD;
-  }
-  .feature-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    max-width: 60%;
-  }
-   
-  .feature {
-    flex: 1 1 48%;
-    background-color: #FFC8DD;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #FFF;
+  color: #333;
+}
 
-  .features-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 2rem;
-  }
-  
-   
-  
-  .feature-image img {
-    max-width: 300px;
-    height: auto;
-    border-radius: 0.5rem;
-    box-shadow: 0 0 8px rgba(0,0,0,0.1);
-  }
-  
-  
-  footer {
-    background-color: #CDB4DB;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
-    color:#FFF;
-  }
-  
-  footer ul {
-    list-style-type: none; /* Remove bullet points */
-    padding: 0;
-    margin: 0;
-    color:white;
-  }
-  
-  footer ul li {
-    display: inline; /* Display items in a line */
-    margin-right: 10px; /* Add space between the links */
-  }
-  
-  footer ul li:last-child {
-    margin-right: 0; /* Remove margin from the last link */
-  }
-  
-  footer ul li a {
-    text-decoration: none; /* Remove underline */
-    color:white; /* Change the color of the links */
-  }
-  
-  footer ul li a:hover {
-    text-decoration: underline; /* Underline on hover */
-    color:white;
-  }
-  footer a{
-    color:white;
-  }
+/* ------------------------------
+   Header Styles
+------------------------------ */
+header {
+  background-color: #CDB4DB;
+  color: #333;
+  text-align: center;
+  padding: 1rem;
+}
 
-/* About Us Page Styles */
+h1 {
+  margin: 0;
+  padding: 1rem;
+}
 
+/* ------------------------------
+   Navigation Styles
+------------------------------ */
+.b-nav {
+  background-color: #A2D2FF;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.b-nav a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 0.5rem;
+}
+
+.b-nav a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------
+   Main Content Styling
+------------------------------ */
+main {
+  padding: 2rem;
+  background-color: #FFF;
+}
+
+/* Hero / Intro Section Styling */
+.hero,
+.intro {
+  background-color: #BDE0FE;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-left: 5px solid #FFC8DD;
+  text-align: center; /* Center text in hero */
+}
+
+/* ------------------------------
+   Feature Section
+------------------------------ */
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  background-color: #BDE0FE;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  border-left: 5px solid #FFC8DD;
+}
+
+.feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 60%;
+}
+
+.feature {
+  flex: 1 1 48%;
+  background-color: #FFC8DD;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.feature-image img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* ------------------------------
+   Footer Styling
+------------------------------ */
+footer {
+  background-color: #CDB4DB;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  color: #FFF;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+footer ul li:last-child {
+  margin-right: 0;
+}
+
+footer ul li a,
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+.footer-imgs {
+  display: flex;
+  justify-content: center; /* center the buttons */
+  align-items: center;
+  gap: 1rem; /* space between buttons */
+  margin-top: 1rem;
+}
+
+.footer-imgs a {
+  display: inline-flex; /* remove inline gap issues */
+}
+
+.footer-imgs img {
+  height: 31px; /* match the icon height */
+  vertical-align: middle; /* align images properly */
+  border: none;
+}
+
+
+/* ------------------------------
+   About / Advocacy / Community Sections
+------------------------------ */
 .about-section,
 .advocacy-section,
 .community-section {
@@ -148,10 +174,9 @@ body {
 }
 
 h3 {
-    color: #333;
-    margin-top: 0;
-  }
-  
+  color: #333;
+  margin-top: 0;
+}
 
 .about-section p,
 .advocacy-section p,
@@ -160,7 +185,9 @@ h3 {
   line-height: 1.6;
 }
 
-/* Gallery styling */
+/* ------------------------------
+   Gallery Styles
+------------------------------ */
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -169,122 +196,132 @@ h3 {
 }
 
 .gallery img {
-    width: 100%;
+  width: 100%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* ------------------------------
+   Success Stories Section
+------------------------------ */
 .success-section {
-    background-color: #BDE0FE;
-    border-radius: 1rem;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    border-left: 5px solid #FFC8DD;
-  }
-  
+  background-color: #BDE0FE;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-left: 5px solid #FFC8DD;
+}
 
-  
-  .success-section p {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #333;
-  }
-  
-  .success-section:last-of-type {
-    margin-bottom: 0;
-  }
-  .community-section {
-    background-color: #BDE0FE;
-    border-radius: 1rem;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-   
-  .community-section p {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #333;
-  }
-  
-  .events-list {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 1rem;
-  }
-  
-  .events-list li {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-    line-height: 1.5;
-  }
-  
-  .events-list li strong {
-    color: #333;
-    font-weight: bold;
-  }  
-  .community-section:last-of-type {
-    margin-bottom: 0;
-  }
-  .contact-section {
-    background-color: #BDE0FE;
-    border-radius: 1rem;
-    padding: 1.5rem;
-    margin-bottom: 2rem;
-  }
-  
-  
-  .contact-section p {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #333;
-  }
-  
-  #contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-top: 1rem;
-  }
-  
-  .form-group {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .form-group label {
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-    color: #333;
-  }
-  
-  .form-group input,
-  .form-group textarea {
-    padding: 0.75rem;
-    border: 1px solid #ddd;
-    border-radius: 0.5rem;
-    font-size: 1rem;
-    color: #333;
-  }
-  
-  .form-group input:focus,
-  .form-group textarea:focus {
-    outline: none;
-    border-color: #A2D2FF;
-  }
-  
-  .submit-btn {
-    padding: 1rem;
-    background-color: #FFAFCC;
-    color: white;
-    border: none;
-    border-radius: 0.5rem;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-top: 1rem;
-  }
-  
-  .submit-btn:hover {
-    background-color: #FFC8DD;
-  }
+.success-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.success-section:last-of-type {
+  margin-bottom: 0;
+}
+
+/* ------------------------------
+   Community Events Section
+------------------------------ */
+.community-section {
+  background-color: #BDE0FE;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.community-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.events-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.events-list li {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.events-list li strong {
+  color: #333;
+  font-weight: bold;
+}
+
+.community-section:last-of-type {
+  margin-bottom: 0;
+}
+
+/* ------------------------------
+   Contact Section & Form
+------------------------------ */
+.contact-section {
+  background-color: #BDE0FE;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.contact-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #A2D2FF;
+}
+
+.submit-btn {
+  padding: 1rem;
+  background-color: #FFAFCC;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.submit-btn:hover {
+  background-color: #FFC8DD;
+}
+
   
