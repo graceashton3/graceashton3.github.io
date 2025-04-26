@@ -52,16 +52,16 @@ main {
 }
 
 /* Hero / Intro Section Styling */
- .hero {
+.hero {
   background-color: #BDE0FE;
   border-radius: 1rem;
   padding: 1.5rem;
   margin-bottom: 2rem;
   border-left: 5px solid #FFC8DD;
-  text-align: center; /* Center text in hero */
+  text-align: center;
 }
 
-.intro{
+.intro {
   text-align: left;
   background-color: #BDE0FE;
   border-radius: 1rem;
@@ -97,6 +97,12 @@ main {
   padding: 1rem;
   border-radius: 0.5rem;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, background-color 0.2s ease; /* NEW */
+}
+
+.feature:hover {
+  transform: scale(1.05); /* NEW */
+  background-color: #FFE0F5; /* NEW */
 }
 
 .features-container {
@@ -149,24 +155,24 @@ footer a {
 footer ul li a:hover {
   text-decoration: underline;
 }
+
 .footer-imgs {
   display: flex;
-  justify-content: center; /* center the buttons */
+  justify-content: center;
   align-items: center;
-  gap: 1rem; /* space between buttons */
+  gap: 1rem;
   margin-top: 1rem;
 }
 
 .footer-imgs a {
-  display: inline-flex; /* remove inline gap issues */
+  display: inline-flex;
 }
 
 .footer-imgs img {
-  height: 31px; /* match the icon height */
-  vertical-align: middle; /* align images properly */
+  height: 31px;
+  vertical-align: middle;
   border: none;
 }
-
 
 /* ------------------------------
    About / Advocacy / Community Sections
@@ -332,4 +338,21 @@ h3 {
   background-color: #FFC8DD;
 }
 
-  
+/* ------------------------------
+   NEW: JS-Enhanced Interactivity Styles
+------------------------------ */
+#toggle-serve {
+  cursor: pointer;
+  user-select: none;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+#toggle-serve:hover {
+  color: #FFAFCC;
+}
+
+#toggle-icon {
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
