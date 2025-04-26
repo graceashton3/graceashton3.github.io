@@ -22,17 +22,22 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   
 //Expandable who we serve list
-document.addEventListener("DOMContentLoaded", () => {
-    const toggleHeader = document.getElementById("toggle-serve");
-    const serveList = toggleHeader.nextElementSibling;
-    const icon = document.getElementById("toggle-icon");
-  
-    toggleHeader.addEventListener("click", () => {
-      serveList.style.display = serveList.style.display === "none" ? "block" : "none";
-      icon.textContent = serveList.style.display === "none" ? "[+]" : "[−]";
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggleServe = document.getElementById("toggle-serve");
+    const expandedList = document.getElementById("expanded-list");
+    const toggleIcon = document.getElementById("toggle-icon");
+
+    toggleServe.addEventListener("click", () => {
+      if (expandedList.style.display === "none") {
+        expandedList.style.display = "block";
+        toggleIcon.textContent = "−";
+      } else {
+        expandedList.style.display = "none";
+        toggleIcon.textContent = "+";
+      }
     });
-  
-    // Start collapsed
-    serveList.style.display = "none";
   });
+</script>
+
   
