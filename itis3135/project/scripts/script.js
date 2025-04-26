@@ -22,7 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   
 //Expandable who we serve list
-<script>
   document.addEventListener("DOMContentLoaded", function () {
     const toggleServe = document.getElementById("toggle-serve");
     const expandedList = document.getElementById("expanded-list");
@@ -38,6 +37,5 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
-</script>
 
   
