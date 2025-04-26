@@ -52,14 +52,22 @@ main {
 }
 
 /* Hero / Intro Section Styling */
-.hero,
-.intro {
+ .hero {
   background-color: #BDE0FE;
   border-radius: 1rem;
   padding: 1.5rem;
   margin-bottom: 2rem;
   border-left: 5px solid #FFC8DD;
   text-align: center; /* Center text in hero */
+}
+
+.intro{
+  text-align: left;
+  background-color: #BDE0FE;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-left: 5px solid #FFC8DD;
 }
 
 /* ------------------------------
