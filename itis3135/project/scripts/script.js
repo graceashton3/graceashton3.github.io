@@ -56,6 +56,18 @@ if (toggleEvents && eventsListContainer && eventsToggleIcon) {
     }
   });
 }
+document.addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('contact-form');
+  
+  form.addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent actual form submission
+
+    // Optionally, you can validate or process the form here
+
+    // Redirect to Thank You page
+    window.location.href = "thankyou.html";
+  });
+});
 
   
   
