@@ -246,7 +246,7 @@ h3 {
 }
 
 .success-section:hover {
-  transform: scale(1.00);
+  transform: scale(1.015);
   background-color: #FFE0F5; 
 }
 
