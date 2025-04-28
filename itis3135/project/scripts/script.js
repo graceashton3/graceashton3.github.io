@@ -39,6 +39,24 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }
   });
+
+  // Expandable Upcoming Events list
+const toggleEvents = document.getElementById("toggle-events");
+const eventsListContainer = document.getElementById("events-list-container");
+const eventsToggleIcon = document.getElementById("events-toggle-icon");
+
+if (toggleEvents && eventsListContainer && eventsToggleIcon) {
+  toggleEvents.addEventListener("click", () => {
+    if (eventsListContainer.style.display === "none" || eventsListContainer.style.display === "") {
+      eventsListContainer.style.display = "block";
+      eventsToggleIcon.textContent = "[-]";
+    } else {
+      eventsListContainer.style.display = "none";
+      eventsToggleIcon.textContent = "[+]";
+    }
+  });
+}
+
   
   
   
